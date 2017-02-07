@@ -1,9 +1,16 @@
 body{
-
     max-width:100%;
     background-color: lightyellow;
+}
 
+.header{
+    margin:0 auto;
+    padding:10px;
+}
 
+.footer{
+    margin:0 auto;
+    padding:10px;
 }
 
 #nav1 ul li{
@@ -63,19 +70,25 @@ h1{
     height:300px;
 }
 
-.class3{
-    text-align:center;
-    margin:0;
+#divid11{
+    background-color: rosybrown;
+    height: 200px;
+}
+
+#divid11 p{
+    font-size:12px;
+    font-family: "Abel", sans-serif;
+    color: white;
+    padding-left:10px;
 }
 
 .class2{
     margin:0;
-
 }
 
-.header{
-    margin:0 auto;
-    padding:10px;
+.class3{
+    text-align:center;
+    margin:0;
 }
 
 #img1{
@@ -94,25 +107,4 @@ h1{
 
 .section2{
     padding:10px;
-}
-
-
-
-
-
-.footer{
-    margin:0 auto;
-    padding:10px;
-}
-
-#divid11{
-    background-color: rosybrown;
-    height: 200px;
-}
-
-#divid11 p{
-    font-size:12px;
-    font-family: "Abel", sans-serif;
-    color: white;
-    padding-left:10px;
 }
