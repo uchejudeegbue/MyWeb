@@ -38,6 +38,14 @@ h1{
     margin:0;
 }
 
+#divid2 a{
+    color: white;
+    font-family: "Abel", sans-serif;
+    font-size:12px;
+    padding-left:20px;
+    text-decoration:none;
+}
+
 #divid3{
     background-color:khaki;
     width:100%;
@@ -45,14 +53,14 @@ h1{
     margin:0;
 }
 
+#divid4{
+    background-color: rgba(252, 252, 252, 1);
+    height:300px;
+}
 
-#divid2 a{
-    color: white;
-    font-family: "Abel", sans-serif;
-    font-size:12px;
-    padding-left:20px;
-    text-decoration:none;
-
+#divid5{
+    background-color: rgba(0, 0, 0, 0.1);
+    height:300px;
 }
 
 .class3{
@@ -88,10 +96,9 @@ h1{
     padding:10px;
 }
 
-#divid4{
-    background-color: rgba(252, 252, 252, 1);
-    height:300px;
-}
+
+
+
 
 .footer{
     margin:0 auto;
