@@ -4,5 +4,20 @@ body{
 }
 
 header{
-    background-color:snow;
+    background-color:khaki;
+}
+#nav1 ul li{
+    display: inline-block;
+
+
+}
+
+#nav1 ul li a{
+
+    text-decoration: none;
+    text-align: center;
+    padding:10px;
+    font-size:12px;
+    font-family: "Abel", sans-serif;
+    text-transform: uppercase;
 }
