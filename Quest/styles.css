@@ -212,14 +212,23 @@ h1{
 #article2 a{
     text-decoration:none;
     position: relative;
-    font-size:20px;
+    font-size:14px;
     font-family: "Abel", sans-serif;
+
 }
 
-#article2 hr:after{
-    content:"V";
-    display: inline-block;
-    position: relative;
-    padding: 0 0.2em;
-    top:-0.7em;
+.fa-hand-o-right{
+    color:darkred;
+    font-size:30px;
+    padding:40px 28px;
+}
+
+#surveybutton{
+    background-color:darkorange;
+    border:none;
+    color:darkred;
+    padding: 20px 30px;
+    text-align:center;
+    display:inline-block;
+    border-radius:12px;
 }
