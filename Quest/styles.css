@@ -184,7 +184,10 @@ h1{
     font-size:16px;
     color:darkred;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:30px;
 }
 
 #article2 p{
@@ -193,8 +196,30 @@ h1{
     font-size:14px;
     color:black;
     text-align: justify;
-    padding-top: 20px;
+    padding-top:10px;
     padding-left:20px;
     padding-right:20px;
-    padding-bottom:0;
+    padding-bottom:30px;
+}
+
+#article2 hr{
+    border-color: darkorange;
+    height: 20px;
+    border-style:solid;
+    border-width:1px 0 0 0;
+}
+
+#article2 a{
+    text-decoration:none;
+    position: relative;
+    font-size:20px;
+    font-family: "Abel", sans-serif;
+}
+
+#article2 hr:after{
+    content:"V";
+    display: inline-block;
+    position: relative;
+    padding: 0 0.2em;
+    top:-0.7em;
 }
