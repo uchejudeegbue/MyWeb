@@ -12,6 +12,9 @@ body{
     margin:0 auto;
     padding:10px;
 }
+main{
+    padding:10px;
+}
 
 #nav1 ul li{
     display: inline-block;
@@ -48,6 +51,7 @@ h1{
     padding-bottom:20px;
     text-decoration: none;
     color:black;
+
 }
 
 #divh2{
@@ -112,26 +116,16 @@ h1{
     padding-left:40px;
 }
 
-#img2{
+#section1{
     height:350px;
     margin:0;
     width:100%;
-    border: 1px solid #ddd;
+    border: 3px solid #ddd;
     border-radius:10px;
-}
-.section1{
-    padding:10px;
+    background-image:url(water.jpg);
+    background-attachment: inherit;
+    background-size:100% 100%;
+    background-size: cover;
+    background-position: center center;
 
-}
-
-.section2{
-    padding:10px;
-}
-
-.section3{
-    padding:10px;
-}
-
-.section4{
-    padding:10px;
 }
