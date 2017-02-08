@@ -232,3 +232,8 @@ h1{
     display:inline-block;
     border-radius:12px;
 }
+
+#fabulous{
+    color:darkorange;
+    font-size:16px;
+}
