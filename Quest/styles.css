@@ -126,6 +126,12 @@ h1{
     background-position: center center;
 }
 
+#d2col2 h2{
+    text-align:left;
+    color:black;
+    padding:5px;
+}
+
 #d2col3{
     background-color: red;
     height: 270px;
