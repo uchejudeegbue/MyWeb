@@ -20,6 +20,7 @@ body{
 .footer{
     margin:0 auto;
     padding:10px;
+
 }
 main{
     padding:10px;
@@ -122,10 +123,9 @@ h1{
 }
 
 #divf{
-    background-color: rosybrown;
+    background-color: rgba(0, 120, 255, 0.3);
     height: 200px;
     margin:0;
-
 }
 
 #divf p{
@@ -238,4 +238,93 @@ h1{
 #fabulous{
     color:darkorange;
     font-size:16px;
+}
+
+#nav2 ul li{
+    display: inline-block;
+    padding: 5px;
+
+}
+
+#nav2 ul li a{
+
+    text-decoration: none;
+    padding:10px;
+    font-size:12px;
+    font-family: Tahoma;
+    text-transform: lowercase;
+    color: darkolivegreen;
+}
+
+#nav2 ul{
+    text-align:center;
+    padding: 2px;
+}
+
+#facebook{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 40px;
+    float:left;
+}
+
+#flickr{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 40px;
+    float:left;
+}
+
+#instagram{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 40px;
+    float:left;
+}
+
+#linkedin{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 40px;
+    float:left;
+}
+
+#pinterest{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 40px;
+    float:left;
+}
+
+#snapchat{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 40px;
+    float:left;
+}
+
+#tumblr{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 40px;
+    float:left;
+}
+
+#twitter{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 40px;
+    float:left;
+}
+
+#youtube{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 40px;
+    float:left;
+
+}
+
+#divf2{
+    clear: left;
 }
