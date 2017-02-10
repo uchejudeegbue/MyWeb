@@ -371,10 +371,15 @@ h1{
 .article1e{
     border: 1px solid #ddd;
     border-radius:10px;
+    padding:40px;
+    text-align:justify;
     margin:0 auto;
     width:100%;
     background-color:white;
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /*Chrome, Safari, Opera */
     -moz-column-gap: 40px; /* Firefox */
     column-gap: 40px;
 }
@@ -486,6 +491,15 @@ h1{
     padding-left:10px;
     padding-right:10px;
     padding-bottom:10px;
+}
+
+#article1e p{
+    font-family: "Abel", sans-serif;
+    font-size:14px;
+    color:black;
+    padding-top:10px;
+    padding-bottom:5px;
+
 }
 
 
