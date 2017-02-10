@@ -322,6 +322,10 @@ h1{
     padding-left:40px;
 }
 
+#img2{
+    padding:5px;
+}
+
 .article1a{
     height:400px;
     border: 1px solid #ddd;
@@ -415,7 +419,7 @@ h1{
     padding-top: 10px;
     padding-left:10px;
     padding-right:10px;
-    padding-bottom:20px;
+    padding-bottom:10px;
 }
 
 
@@ -447,6 +451,14 @@ h1{
     border-style:solid;
     border-width:1px 0 0 0;
 }
+
+#article2c hr{
+    border-color: darkorange;
+    height: 20px;
+    border-style:solid;
+    border-width:1px 0 0 0;
+}
+
 
 #article2 a{
     text-decoration:none;
