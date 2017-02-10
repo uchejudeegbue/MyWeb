@@ -407,6 +407,18 @@ h1{
     padding-bottom:20px;
 }
 
+#article2c h1{
+    font-family: "Abel", sans-serif;
+    font-size:16px;
+    color:darkred;
+    text-align: center;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:20px;
+}
+
+
 #article2 p{
     font-family: "Abel", sans-serif;
     font-size:14px;
@@ -416,6 +428,18 @@ h1{
     padding-right:20px;
     padding-bottom:5px;
 }
+
+#article2c p{
+    font-family: "Abel", sans-serif;
+    font-size:14px;
+    color:black;
+    padding-top:5px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:5px;
+    text-align:justify;
+}
+
 
 #article2 hr{
     border-color: darkorange;
