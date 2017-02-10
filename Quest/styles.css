@@ -248,8 +248,21 @@ h1{
     height:300px;
     border:0;
     margin:0 auto;
+}
 
+#div4col1{
+    float: left;
+    width: auto;
+}
 
+#div4col2{
+    float:left;
+    width:auto;
+}
+
+#div4col3{
+    float:right;
+    width:auto;
 }
 
 #divf{
