@@ -252,29 +252,52 @@ h1{
 
 #d4col1{
     float: left;
-    width: auto;
+    width: 28%;
     font-size:14px;
     padding:20px;
+    font-family: "Abel", sans-serif;
+    text-align:justify;
 }
 
 #d4col2{
     float:left;
-    width:auto;
+    width:28%;
     font-size:14px;
     padding:20px;
+    font-family: "Abel", sans-serif;
+    text-align:justify;
 }
 
 #d4col3{
     float:right;
-    width:auto;
+    width:28%;
     font-size:14px;
     padding:20px;
+    font-family: "Abel", sans-serif;
+    text-align:justify;
+}
+
+#div4 h2{
+    padding:20px;
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+}
+
+#d4p1{
+    padding-top:5px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    font-family: "Abel", sans-serif;
+    font-size:14px;
+    text-align:justify;
 }
 
 #divf{
     background-color: rgba(0, 120, 255, 0.3);
     height: 200px;
     margin:0;
+    clear:left;
 }
 
 #divf p{
