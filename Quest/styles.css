@@ -390,14 +390,12 @@ h1{
 
 #article2 p{
     font-family: "Abel", sans-serif;
-    text-indent: 10px;
     font-size:14px;
     color:black;
-    text-align: justify;
-    padding-top:10px;
-    padding-left:20px;
+    padding-top:5px;
+    padding-left:40px;
     padding-right:20px;
-    padding-bottom:30px;
+    padding-bottom:5px;
 }
 
 #article2 hr{
