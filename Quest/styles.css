@@ -322,7 +322,7 @@ h1{
     padding-left:40px;
 }
 
-.article1{
+.article1a{
     height:400px;
     border: 1px solid #ddd;
     border-radius:10px;
@@ -335,7 +335,20 @@ h1{
     width:69%;
 }
 
-#article1 h1{
+.article1b{
+    height:400px;
+    border: 1px solid #ddd;
+    border-radius:10px;
+    background-image:url(contact.jpg);
+    background-attachment: inherit;
+    background-size:100% 100%;
+    background-position: center center;
+    margin:0 auto;
+    float:left;
+    width:69%;
+}
+
+#article1a h1{
     color:white;
     text-align:center;
     padding:5px;
@@ -343,6 +356,16 @@ h1{
     font-size:22px;
 
 }
+
+#article1b h1{
+    color:black;
+    text-align:center;
+    padding:5px;
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+
+}
+
 
 .article2{
     float:right;
