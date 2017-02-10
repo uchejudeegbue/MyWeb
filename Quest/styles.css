@@ -339,7 +339,7 @@ h1{
     height:400px;
     border: 1px solid #ddd;
     border-radius:10px;
-    background-image:url(contact.jpg);
+    background-image:url(contact2.jpg);
     background-attachment: inherit;
     background-size:100% 100%;
     background-position: center center;
@@ -358,9 +358,9 @@ h1{
 }
 
 #article1b h1{
-    color:black;
+    color:blue;
     text-align:center;
-    padding:5px;
+    padding-top:5px;
     font-family: "Abel", sans-serif;
     font-size:22px;
 
