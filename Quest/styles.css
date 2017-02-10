@@ -186,8 +186,8 @@ h1{
 
 #d3a1{
     text-decoration: none;
-    background-color:darkorange;
-    border:none;
+    background-color:rgba(0, 0, 0, 0.1);
+    border:darkorange;
     color:darkred;
     padding: 10px 10px;
     text-align:center;
