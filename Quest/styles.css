@@ -117,24 +117,24 @@ h1{
     margin:0 auto;
     clear:left;
     width:100%;
-    align-items: center;
+    align-content:center;
 
 }
 
 #d2col1{
     background-color: darkgoldenrod;
-    height: 270px;
-    width: 30%;
-    margin: 10px;
+    height: 100%;
+    width: 33%;
+    margin: 5px;
     padding: 2px;
     float:left;
 }
 
 #d2col2{
     background-image: url(crayons.jpg);
-    height: 270px;
+    height: 100%;
     width: 30%;
-    margin: 10px;
+    margin: 5px;
     padding: 2px;
     float:left;
     background-attachment: inherit;
@@ -150,9 +150,9 @@ h1{
 
 #d2col3{
     background-color: olivedrab;
-    height: 270px;
+    height: 100%;
     width: 30%;
-    margin: 10px;
+    margin: 5px;
     padding: 2px;
     float:left;
 }
