@@ -109,6 +109,28 @@ h1{
     background-color:white;
 }
 
+#div1e h1{
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+    color:black;
+    text-align: center;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+#div1e p{
+    font-family: "Abel", sans-serif;
+    font-size:14px;
+    color:black;
+    padding-top:20px;
+    padding-left:100px;
+    padding-right:100px;
+    text-align:justify;
+}
+
+
 
 #div2{
     background-color: rgba(252, 252, 252, 1);
@@ -450,26 +472,6 @@ h1{
 }
 
 
-#article1e h1{
-    color:black;
-    text-align:center;
-    padding-top:5px;
-    font-family: "Abel", sans-serif;
-    font-size:22px;
-}
-
-.article1e h1{
-    font-family: "Abel", sans-serif;
-    font-size:16px;
-    color:black;
-    text-align: center;
-    padding-top: 10px;
-    padding-left:10px;
-    padding-right:10px;
-    padding-bottom:10px;
-}
-
-
 .article2{
     float:right;
     height:400px;
@@ -522,17 +524,6 @@ h1{
     border-radius:10px;
     margin:0 auto;
     width:34%;
-}
-
-#div1e p{
-    font-family: "Abel", sans-serif;
-    font-size:14px;
-    color:black;
-    padding-top:20px;
-
-    padding-left:100px;
-    padding-right:100px;
-    text-align:justify;
 }
 
 
