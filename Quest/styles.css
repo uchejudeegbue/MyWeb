@@ -553,6 +553,12 @@ h1{
     font-size:16px;
 }
 
+#congratulations{
+    color:darkorange;
+    font-size:16px;
+}
+
+
 #nav2 ul li{
     display: inline-block;
     padding: 5px;
