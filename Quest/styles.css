@@ -313,6 +313,7 @@ h1{
     height: 200px;
     margin:0 auto;
     clear:left;
+    padding-top:10px;
 }
 
 #divf p{
@@ -320,6 +321,15 @@ h1{
     font-family: "Abel", sans-serif;
     color: black;
     padding-left:10px;
+}
+
+#divf2{
+    text-align:center;
+}
+
+#divf3{
+    clear: left;
+    text-align:center;
 }
 
 .class2{
@@ -695,14 +705,4 @@ h1{
     text-decoration: none;
     padding: 40px;
     float:left;
-}
-
-#divf2{
-    text-align:center;
-
-}
-
-#divf3{
-    clear: left;
-    text-align:center;
 }
