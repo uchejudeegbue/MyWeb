@@ -392,6 +392,15 @@ h1{
     font-size:22px;
 }
 
+#article1d h1{
+    color:black;
+    text-align:center;
+    padding-top:5px;
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+}
+
+
 .article1d{
     background-image:url(smile.jpg);
     height:400px;
