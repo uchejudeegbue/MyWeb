@@ -109,6 +109,12 @@ h1{
     background-color:white;
 }
 
+#div1f{
+    width: 100%;
+    background-color:black;
+}
+
+
 #div1e h1{
     font-family: "Abel", sans-serif;
     font-size:22px;
@@ -120,6 +126,18 @@ h1{
     padding-bottom:10px;
 }
 
+#div1f h1{
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+
 #div1e p{
     font-family: "Abel", sans-serif;
     font-size:14px;
@@ -129,6 +147,17 @@ h1{
     padding-right:100px;
     text-align:justify;
 }
+
+#div1f p{
+    font-family: "Abel", sans-serif;
+    font-size:14px;
+    color:white;
+    padding-top:20px;
+    padding-left:100px;
+    padding-right:100px;
+    text-align:justify;
+}
+
 
 
 
