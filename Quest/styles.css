@@ -165,24 +165,48 @@ h1{
 }
 
 #d3h4n1 {font-family:"AR CENA", sans-serif;
-    color:crimson;
-    font-size:20px;
+    color:rgba(0, 10, 255, 0.7);
+    font-size:22px;
 }
 
 #d3h4n2 {font-family:"AR CENA", sans-serif;
-    color:dodgerblue;
-    font-size:20px;
+    color:rgba(0, 10, 255, 0.7);
+    font-size:22px;
 }
 
 #d3h4n3 {font-family:"AR CENA", sans-serif;
-    color:darkolivegreen;
-    font-size:20px;
+    color:rgba(0, 10, 255, 0.7);
+    font-size:22px;
 }
 
 #d3h4n4 {font-family:"AR CENA", sans-serif;
-    color:brown;
-    font-size:20px;
+    color:rgba(0, 10, 255, 0.7);
+    font-size:22px;
 }
+
+#d3a1{
+    text-decoration: none;
+    background-color:darkorange;
+    border:none;
+    color:darkred;
+    padding: 10px 10px;
+    text-align:center;
+    display:inline-block;
+    border-radius:12px;
+}
+
+#d3a2{
+    text-decoration: none;
+}
+
+#d3a3{
+    text-decoration: none;
+}
+
+#d3a4{
+    text-decoration: none;
+}
+
 
 #div4{
     background-color: rgba(252, 252, 252, 1);
