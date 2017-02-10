@@ -253,16 +253,22 @@ h1{
 #d4col1{
     float: left;
     width: auto;
+    font-size:14px;
+    padding:20px;
 }
 
 #d4col2{
     float:left;
     width:auto;
+    font-size:14px;
+    padding:20px;
 }
 
 #d4col3{
     float:right;
     width:auto;
+    font-size:14px;
+    padding:20px;
 }
 
 #divf{
