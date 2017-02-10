@@ -164,6 +164,26 @@ h1{
     padding-bottom: 40px;
 }
 
+#d3h4n1 {font-family:"AR CENA";
+    color:red;
+    font-size:25px;
+}
+
+#d3h4n2 {font-family:"AR CENA";
+    color:blue;
+    font-size:25px;
+}
+
+#d3h4n3 {font-family:"AR CENA";
+    color:green;
+    font-size:25px;
+}
+
+#d3h4n4 {font-family:"AR CENA";
+    color:brown;
+    font-size:25px;
+}
+
 #div4{
     background-color: rgba(252, 252, 252, 1);
     height:300px;
