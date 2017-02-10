@@ -487,6 +487,13 @@ h1{
     border-radius:12px;
 }
 
+#rewardbutton{
+    color:darkorange;
+    text-decoration:none;
+    font-family: "Abel", sans-serif;
+}
+
+
 #fabulous{
     color:darkorange;
     font-size:16px;
