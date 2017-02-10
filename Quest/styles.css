@@ -367,7 +367,6 @@ h1{
     padding:5px;
     font-family: "Abel", sans-serif;
     font-size:22px;
-
 }
 
 #article1b h1{
@@ -376,7 +375,14 @@ h1{
     padding-top:5px;
     font-family: "Abel", sans-serif;
     font-size:22px;
+}
 
+#article1c h1{
+    color:red;
+    text-align:center;
+    padding-top:5px;
+    font-family: "Abel", sans-serif;
+    font-size:22px;
 }
 
 
