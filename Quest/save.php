@@ -19,7 +19,7 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 ## query database
 	# prepare data for insertion
 	$response1	= $_POST['age'];
-	$response2	= $_POST['gende'];
+	$response2	= $_POST['gender'];
 	$response3	= $_POST['answer'];
 	$response4	= $_POST['phones'];
 	$response5	= $_POST['response'];
