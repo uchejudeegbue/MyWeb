@@ -35,7 +35,7 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 	
 		# insert data into mysql database
 		$sql = "INSERT  INTO `responce` (`id`, `response1`, `response2`, `response3`, `response4`, `response5`, `response6`, `response7`, `response8`, `response9')
-				VALUES (NULL, '{$response1}', '{$response2}', '{$response3}', '{$response4}', '{$response5}', '{$response6}', '{$response7}', '{$response8}', '{$response9}')";
+				VALUES (1, '{$response1}', '{$response2}', '{$response3}', '{$response4}', '{$response5}', '{$response6}', '{$response7}', '{$response8}', '{$response9}')";
  
 		if ($mysqli->query($sql)) {
 			
