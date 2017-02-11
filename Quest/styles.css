@@ -517,7 +517,7 @@ h1{
 }
 
 .article1i {
-    height: 600px;
+    height: 100%
     border: 1px solid #ddd;
     border-radius: 10px;
     background-image: url(capture.png);
