@@ -39,7 +39,7 @@
         <h1> <strong>Dyson Product Testing Page</strong></h1>
 
         <p>
-            Click the continue button to proceed
+            Click the continue button to proceed now
 
 
         </p>
