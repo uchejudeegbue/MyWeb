@@ -8,5 +8,7 @@
 
 $x = 5;
 var_dump($x);
+$y = 6;
+var_dump($y);
 ?>
 
