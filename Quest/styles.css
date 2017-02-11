@@ -212,6 +212,14 @@ h1{
     padding-right:20px;
 }
 
+#div1h {
+
+    height: 600px;
+    background-color: white;
+    border: 10px solid darkorange;
+}
+
+
 
 #div1gform{
     padding-left:110px;
