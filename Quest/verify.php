@@ -1,6 +1,6 @@
 <?php
 # mysql db constants DB_HOST, DB_USER, DB_PASS, DB_NAME
-const DB_HOST = 'ap-cdbr-azure-east.cloudaoo.net';
+const DB_HOST = 'ap-cdbr-azure-east.cloudapp.net';
 const DB_USER = 'b70bf26a0e51fe';
 const DB_PASS = '408b52f1';
 const DB_NAME = 'acsm_581c9d4a8ca6f21';
