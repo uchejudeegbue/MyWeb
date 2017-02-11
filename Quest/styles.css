@@ -214,7 +214,7 @@ h1{
 
 #div1i {
 
-    height: 600px;
+    height: 400px;
     background-color: white;
     border: 10px solid darkorange;
 }
@@ -749,6 +749,10 @@ h1{
     display:inline-block;
     border-radius:12px;
     text-decoration:none;
+}
+
+#div1ic{
+    text-align:center;
 }
 
 
