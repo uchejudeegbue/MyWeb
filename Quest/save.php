@@ -1,11 +1,11 @@
 <?php
 
 # mysql db constants DB_HOST, DB_USER, DB_PASS, DB_NAME
-	const DB_HOST = 'localhost';
-	const DB_USER = 'root';
-	const DB_PASS = '';
-	const DB_NAME = 'msc_project';
-	
+const DB_HOST = 'ap-cdbr-azure-east-c.cloudapp.net';
+const DB_USER = 'b70bf26a0e51fe';
+const DB_PASS = '408b52f1';
+const DB_NAME = 'acsm_581c9d4a8ca6f21';
+
 
 
 
@@ -34,7 +34,7 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 		$exists = 1;
 	
 		# insert data into mysql database
-		$sql = "INSERT  INTO `response` (`response1`, `response2`, `response3`, `response4`, `response5`, `response6`, `response7`, `response8`, `response9') 
+		$sql = "INSERT  INTO `response` ('id', `response1`, `response2`, `response3`, `response4`, `response5`, `response6`, `response7`, `response8`, `response9')
 				VALUES (NULL, '{$response1}', '{$response2}', '{$response3}', '{$response4}', '{$response5}', '{$response6}', '{$response7}', '{$response8}', '{$response9}')";
  
 		if ($mysqli->query($sql)) {
@@ -45,7 +45,7 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 		} else {
 			echo "<p>MySQL error no {$mysqli->errno} : {$mysqli->error}</p>";
 			exit();
-		}
-	}
+
+
 }
 ?>
