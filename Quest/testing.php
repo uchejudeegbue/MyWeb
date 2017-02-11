@@ -14,9 +14,12 @@
  */
 $x = 5;
 var_dump($x);
-echo "<br/>";
+
 $y = 6;
 var_dump($y);
+
+$z = 22.5;
+var_dump($z);
 ?>
 
 </body>
