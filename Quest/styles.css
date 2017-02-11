@@ -517,16 +517,14 @@ h1{
 }
 
 .article1i {
-    height: 100%
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    height: 100%;
     background-image: url(capture.png);
     background-attachment: inherit;
     background-size: 100% 100%;
     background-position: center center;
     margin: 0 auto;
     float: left;
-    width: 69%;
+    width: 70%;
 }
 
 
@@ -588,6 +586,15 @@ h1{
     width:29%;
 }
 
+.article2i{
+    float:right;
+    height:100%;
+    background-color: white;
+    margin:0 auto;
+    width:28%;
+}
+
+
 
 #article2 h1{
     font-family: "Abel", sans-serif;
@@ -627,10 +634,10 @@ h1{
     font-size:16px;
     color:darkred;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 70px;
     padding-left:10px;
     padding-right:10px;
-    padding-bottom:10px;
+    padding-bottom:70px;
 }
 
 .article2d{
@@ -680,11 +687,11 @@ h1{
     font-family: "Abel", sans-serif;
     font-size:14px;
     color:black;
-    padding-top:5px;
+    padding-top:40px;
     padding-left:20px;
     padding-right:20px;
-    padding-bottom:5px;
-    text-align:justify;
+    padding-bottom:40px;
+    text-align:center;
 }
 
 
@@ -737,7 +744,7 @@ h1{
     background-color:darkorange;
     border:none;
     color:darkred;
-    padding: 20px 25px;
+    padding: 15px 25px;
     text-align:center;
     display:inline-block;
     border-radius:12px;
