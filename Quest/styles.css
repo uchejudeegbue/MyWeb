@@ -185,6 +185,34 @@ h1{
     padding-right:20px;
 }
 
+#div1h {
+
+    height: 500px;
+    background-color: white;
+    border: 10px solid darkorange;
+}
+
+#div1h h1{
+    font-size:22px;
+    font-family: "Abel", sans-serif;
+    color:darkred;
+    text-align:center;
+    padding-top:40px;
+    padding-left:40px;
+    padding-right:40px;
+
+}
+
+#div1h p{
+    font-size:20px;
+    font-family: "Abel", sans-serif;
+    color:black;
+    text-align:left;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+
 #div1gform{
     padding-left:110px;
 }
