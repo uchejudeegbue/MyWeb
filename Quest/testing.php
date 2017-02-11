@@ -14,6 +14,7 @@
  */
 $x = 5;
 var_dump($x);
+"<br/>";
 $y = 6;
 var_dump($y);
 ?>
