@@ -246,8 +246,8 @@ h1{
 #d2col1{
     background-color: darkgoldenrod;
     height: 100%;
-    width: 33%;
-    margin: 5px;
+    width: 33.33%;
+
     padding: 2px;
     float:left;
 }
@@ -255,8 +255,8 @@ h1{
 #d2col2{
     background-image: url(crayons.jpg);
     height: 100%;
-    width: 33%;
-    margin: 5px;
+    width: 33.33%;
+
     padding: 2px;
     float:left;
     background-attachment: inherit;
@@ -273,8 +273,8 @@ h1{
 #d2col3{
     background-color: olivedrab;
     height: 100%;
-    width: 33%;
-    margin: 5px;
+    width: 33.33%;
+
     padding: 2px;
     float:left;
 }
