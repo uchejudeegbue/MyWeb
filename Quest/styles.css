@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     border:0;
+    box-sizing:border-box;
 }
 
 body{
@@ -245,7 +246,7 @@ h1{
 #d2col1{
     background-color: darkgoldenrod;
     height: 100%;
-    width: 32%;
+    width: 33%;
     margin: 5px;
     padding: 2px;
     float:left;
@@ -254,7 +255,7 @@ h1{
 #d2col2{
     background-image: url(crayons.jpg);
     height: 100%;
-    width: 32%;
+    width: 33%;
     margin: 5px;
     padding: 2px;
     float:left;
@@ -272,7 +273,7 @@ h1{
 #d2col3{
     background-color: olivedrab;
     height: 100%;
-    width: 32%;
+    width: 33%;
     margin: 5px;
     padding: 2px;
     float:left;
