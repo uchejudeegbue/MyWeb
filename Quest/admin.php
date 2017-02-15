@@ -1,11 +1,12 @@
 <?php
-$dbhost = 'localhost';
-$dbuser = 'root';
-$dbpass = '';
+$dbhost = 'ap-cdbr-azure-east-c.cloudapp.net';
+$dbuser = 'b70bf26a0e51fe';
+$dbpass = '408b52f1';
+$dbname = 'acsm_581c9d4a8ca6f21';
 
 $conn = mysql_connect($dbhost, $dbuser, $dbpass) or die ('Error connecting to mysql');
 
-$dbname = 'msc_project';
+
 mysql_select_db($dbname);
 
 $query = "SELECT * FROM responce";
