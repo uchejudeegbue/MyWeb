@@ -41,7 +41,7 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 			
 			//echo "New Record has id ".$mysqli->insert_id;
 			echo "<p>Submmited successfully!</p>";
-			header('location: save.php');
+			header('location: login.php');
 		} else {
 			echo "<p>MySQL error no {$mysqli->errno} : {$mysqli->error}</p>";
 			exit();
