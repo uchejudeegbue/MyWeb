@@ -14,17 +14,17 @@ if ($mysqli->connect_errno) {
     exit();
 }
 
-$productname = $_POST['productname'];
-$code = $_POST['code'];
+$username = $_POST['username'];
+$password = $_POST['password'];
 
-$sql = "SELECT * from product WHERE product_name LIKE '{$productname}' AND product_code  LIKE '{$code}' LIMIT 1";
+$sql = "SELECT * from admin WHERE username LIKE '{$username}' AND password  LIKE '{$password}' LIMIT 1";
 $result = $mysqli->query($sql);
 if (!$result->num_rows == 1) {
     echo "<p>Invalid login credentials</p>";
 } else {
     echo "<p>Logged in successfully</p>";
     // do stuffs
-    header('location: product.html');
+ header('location: admin.php');
 }
 
 

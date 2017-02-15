@@ -10,8 +10,9 @@
 <body>
 <header class="header">
     <div id="divh1">
+	
         <img id="img1" src="" alt="Quest Online Logo"/>
-        <a class="classh1" href="survey.html">Log In</a>
+        <a class="classh1" href="admin_login.html">Log In</a>
 
     </div>
     <div id="divh2" class="class2">
