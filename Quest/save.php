@@ -44,8 +44,8 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 		$exists = 1;
 	
 		# insert data into mysql database
-		$sql = "INSERT  INTO responce (id, user_ID, response1, response2, response3, response4, response5, response6, response7, response8, response9)
-				VALUES ('11', '$userID', '$response1', '$response2', '$response3', '$response4', '$response5','$response6', '$response7','$response8', '$response9')";
+		$sql = "INSERT  INTO responce (user_ID, response1, response2, response3, response4, response5, response6, response7, response8, response9)
+				VALUES ($userID', '$response1', '$response2', '$response3', '$response4', '$response5','$response6', '$response7','$response8', '$response9')";
  
 		if ($mysqli->query($sql)) {
 			
