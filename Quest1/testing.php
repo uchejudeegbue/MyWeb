@@ -20,6 +20,8 @@ var_dump($y);
 
 $z = 22.5;
 var_dump($z);
+
+$k = 20.0;
 ?>
 
 </body>
