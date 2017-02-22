@@ -36,7 +36,7 @@
 </header>
 <main>
     <div id="div1h" class="div1h">
-        <h1> <strong>Dyson Product Testing Page</strong></h1>
+        <h1> <strong>LEN0V0 Product Testing Page</strong></h1>
 
         <p>
             Click the continue button to proceed now
