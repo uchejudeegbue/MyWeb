@@ -14,7 +14,7 @@
 <body>
 <header class="header">
     <div id="divh1">
-	
+
         <img id="img1" src="" alt="Quest Online Logo"/>
         <a class="classh1" href="admin_login.html">Log In</a>
 
@@ -198,7 +198,7 @@
         </div>
 
         <div id="divf3">
-            <p>&copy Quest Online is a registered trademark under UK trade laws No.A149 001 B29 - All rights reserved 2016</p>
+            <p>&copy Quest Online is a registered trademark under the trade laws No.A149 001 B29 - All rights reserved 2016</p>
         </div>
     </div>
 </footer>

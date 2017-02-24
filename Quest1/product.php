@@ -40,21 +40,21 @@
 </header>
 <main>
     <div id="div1h" class="div1h">
-        <h1> <strong>Dyson Product Testing Page</strong></h1>
+        <h1> <strong>LEN0V0 Product Testing Page</strong></h1>
 
         <p>
             Click the continue button to proceed now
 
 
         </p>
-<?php
-/**
- * Created by PhpStorm.
- * User: UCHE EGBUE BENDAC
- * Date: 2/11/2017
- * Time: 3:53 PM
- */
-?>
+        <?php
+        /**
+         * Created by PhpStorm.
+         * User: UCHE EGBUE BENDAC
+         * Date: 2/11/2017
+         * Time: 3:53 PM
+         */
+        ?>
 
     </div>
 
@@ -116,7 +116,7 @@
         </div>
 
         <div id="divf3">
-            <p>&copy Quest Online is a registered trademark under UK trade laws No.A149 001 B29 - All rights reserved 2016</p>
+            <p>&copy Quest Online is a registered trademark under the trade laws No.A149 001 B29 - All rights reserved 2016</p>
         </div>
     </div>
 </footer>
