@@ -10,3 +10,15 @@ body{
     margin:0 auto;
     padding:0;
 }
+
+.navbar a{
+    color:darkred;
+}
+
+.navbar li a:hover{
+    background:rgba(0, 120, 255, 0.3);;
+}
+
+.navbar-default{
+    background: white;
+}
