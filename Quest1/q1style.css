@@ -12,13 +12,16 @@ body{
 }
 
 .navbar a{
-    color:darkred;
+    color:white;
 }
 
-.navbar li a:hover{
-    background:rgba(0, 120, 255, 0.3);;
+.nav li a:hover{
+    background:red;
 }
 
 .navbar-default{
-    background: white;
+    background:rgba(0, 120, 255, 0.3);
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
 }
