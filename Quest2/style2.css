@@ -8,17 +8,16 @@
 body{
     max-width:100%;
     background-color: lightyellow;
-    margin:0 auto;
+    margin:0;
     padding:0;
     border:0;
-
 }
 
 .header{
     margin:0 auto;
     padding-top:10px;
     width:100%;
-
+    border:0;
 }
 
 .footer{
@@ -27,9 +26,8 @@ body{
     padding-right:10px;
     padding-bottom:10px;
     width:100%;
-
-
 }
+
 main{
     padding-left:10px;
     padding-right:10px;
