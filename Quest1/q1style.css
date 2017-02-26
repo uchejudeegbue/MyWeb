@@ -40,10 +40,19 @@ body{
 .row2{
 
     padding:30px;
+    background:white;
 }
 
 #jumbotron1{
     background:darkorange;
     padding:0;
+    margin:0;
+    border:0;
+}
+.class1 h2{
+    padding:0;
+    border:0px;
+    color:white;
+    font-family: "Abel", sans-serif;
 }
 
