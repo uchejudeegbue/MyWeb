@@ -7,21 +7,22 @@
 body{
     max-width:100%;
     background-color: lightyellow;
-    margin:0 auto;
     padding:0;
 }
 
 .navbar a{
-    color:white;
+    color:blue;
 }
 
 .nav li a:hover{
-    background:red;
+    background:orange;
 }
 
-.navbar-default{
-    background:rgba(0, 120, 255, 0.3);
-    margin-top:10px;
-    margin-left:10px;
-    margin-right:10px;
+
+.navbar{
+    margin:0 auto;
+    margin-left:0;
+    margin-right:0;
+    border:0;
+
 }
