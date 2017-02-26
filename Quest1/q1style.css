@@ -4,6 +4,7 @@
     border:0;
 }
 
+
 body{
     max-width:100%;
     background-color: lightyellow;
@@ -11,18 +12,11 @@ body{
     border:0;
 }
 
-.navbar a{
+.navbar-default{
     color:blue;
 }
 
-.nav li a:hover{
-    background:orange;
-}
 
-.navbar{
-    margin:0;
-    border:0;
-}
 
 .navbar-default{
     background: rgba(0, 120, 255, 0.2);
@@ -34,6 +28,7 @@ body{
     background-color:rgba(0, 0, 0, 0.6);
     margin:0;
     border:0;
+    padding:0;
 }
 
 .class3{
@@ -42,4 +37,12 @@ body{
     height:80px;
     margin:0;
     border:0;
+    padding:0;
+}
+
+.header{
+    margin:0;
+    border:0;
+    padding:0;
+
 }
