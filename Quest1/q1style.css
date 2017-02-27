@@ -269,7 +269,18 @@ body{
     color:black;
 }
 
-#offer a{
-    text-decoration:none;
+
+
+.b1:hover{
+    background-color:darkorange;
+    color:white;
+}
+
+.button{
     color:darkred;
+    padding:16px 20px;
+    text-decoration:none;
+    background-color:white;
+    border-radius:4px;
+
 }
