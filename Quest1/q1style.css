@@ -213,3 +213,32 @@ body{
 #pre1{
     padding:60px;
 }
+
+#form2{
+    padding-left:60px;
+    padding-top:40px;
+    padding-bottom:50px;
+}
+
+#div1h h2{
+
+    font-family: "Abel", sans-serif;
+    color:darkred;
+    text-align:center;
+    padding-top:40px;
+    padding-left:40px;
+    padding-right:40px;
+    text-transform: uppercase;
+}
+
+#pre2{
+    padding-left:60px;
+    padding-top:30px;
+}
+
+#pre2 p{
+    font-size:20px;
+    font-family: "Abel", sans-serif;
+    color:black;
+    text-align:left;
+}
