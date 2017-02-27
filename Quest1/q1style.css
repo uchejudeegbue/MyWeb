@@ -143,8 +143,10 @@ body{
 
 .social-media a{
     font-size: 30px;
-    padding-left: 60px;
-
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .divf3 p{
