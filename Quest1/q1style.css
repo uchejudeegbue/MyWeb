@@ -317,3 +317,34 @@ body{
     padding-right:100px;
     text-align:justify;
 }
+
+#div1e p{
+    font-family: "Abel", sans-serif;
+    font-size:14px;
+    color:black;
+    padding-top:10px;
+    padding-left:100px;
+    padding-right:100px;
+    text-align:justify;
+}
+
+#div1e h1{
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+    color:black;
+    text-align: center;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:5px;
+    text-transform: uppercase;
+}
+
+#div1e{
+    border:10px solid darkorange;
+    background-color:white;
+}
+
+#address1e{
+    padding-left:100px;
+}
