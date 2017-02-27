@@ -24,8 +24,6 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
             </button>
         </div>
         <!--end navbar-header-->
@@ -33,8 +31,6 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About.Us</a></li>
-                <li><a href="#testimonial">Testimonials</a></li>
-                <li><a href="survey.html">Log In</a></li>
             </ul>
         </div>
     </div>
