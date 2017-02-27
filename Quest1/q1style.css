@@ -86,10 +86,16 @@ body{
     padding-bottom:40px;
     font-size:14px;
     font-family: "Abel", sans-serif;
-
 }
 
-.d3h4 {font-family:"AR CENA", sans-serif;
+.well h2{
+    font-size:25px;
+    font-family: "Abel", sans-serif;
+    padding-bottom:40px;
+}
+
+.d3h4 {
+    font-family:"AR CENA", sans-serif;
     color:rgba(0, 10, 255, 0.7);
     font-size:20px;
 }
@@ -103,4 +109,25 @@ body{
     text-align:center;
     display:inline-block;
     border-radius:12px;
+    font-family: "Abel", sans-serif;
+}
+
+.block h3{
+    font-size:18px;
+    font-family: "Abel", sans-serif;
+}
+
+.block p{
+    font-size:14px;
+    font-family: "Abel", sans-serif;
+}
+
+#testimonial h2{
+    font-size:25px;
+    font-family: "Abel", sans-serif;
+}
+
+#testimonial p{
+    font-size:16px;
+    font-family: "Abel", sans-serif;
 }
