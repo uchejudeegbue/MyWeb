@@ -79,7 +79,13 @@ body{
     height:400px;
 }
 
-.well{
+.well{background-color: rgba(0, 0, 0, 0.1);
+    border:0;
+    margin:0 auto;
+    padding-top:20px;
+    padding-bottom:40px;
+    font-size:14px;
+    font-family: "Abel", sans-serif;
 
 }
 
