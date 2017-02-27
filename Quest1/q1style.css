@@ -69,15 +69,26 @@ body{
     background-size:100% 100%;
     background-position: center center;
     margin:0 auto;
-    padding:0;
-    width:100%;
+
 }
 
 .article2a{
     background:rgba(0, 100, 255, 0.3);
-    width:100%;
     height:400px;
 }
+
+#article2a h1 {
+    font-family: "Abel", sans-serif;
+    font-size: 16px;
+    color: darkred;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    text-transform:uppercase;
+}
+
 
 .well{
     background-color: rgba(0, 0, 0, 0.1);
@@ -347,4 +358,12 @@ body{
 
 #address1e{
     padding-left:100px;
+}
+
+#article1a h1{
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-family: "Abel", sans-serif;
+    font-size:30px;
 }
