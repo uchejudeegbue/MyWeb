@@ -67,7 +67,7 @@
 
 <!--start main-->
 <main>
-    <div id="div1g" class="div1g">
+    <div class="well" id="div1g" class="div1g">
         <h1> <strong>You are welcome to Quest Online Product Testing Platform</strong></h1>
         <pre>
             <p>
@@ -77,22 +77,30 @@
                 Thank you for creating time to participate.
             </p>
         </pre>
-        <form id="div1gform" action="verify.php" method="post">
-            <fieldset>
-                <legend>Log in credentials</legend>
-                <br/>
-                Product Name:<br/>
-                <input type="text" name="productname"  placeholder="30 characters max" maxlength="30" required /><br/><br/>
-                Product Code:<br/>
-                <input type="text" name="code" placeholder="16 characters only"  maxlength="16" required /><br/><br/>
-                <input type="checkbox" name="agree" required/> I agree with the terms of use<br/><br/>
-                <input type="submit" value="submit"/>
-                <input type="reset" value="reset"/>
-            </fieldset>
-        </form>
-    </div>
 
 
+            <div class="container-fluid">
+                <form id="div1gform" action="verify.php" method="post">
+                    <div class="form-group">
+                        <legend>Log in credentials</legend>
+                        <br/>
+                        <label for="name">Product Name:</label><br/>
+                        <input type="text" id="name" name="productname"  placeholder="30 characters max" maxlength="30" width="30" required /><br/><br/>
+                        <label for="code">Product Code:</label> <br/>
+                        <input type="text" id="code"  name="code" placeholder="16 characters only"  maxlength="16" required /><br/><br/>
+                        <input type="checkbox" name="agree" required/> I agree with the terms of use<br/><br/>
+                        <button type="submit" class="btn btn-info" >Submit</button>
+                        <button type="reset" class="btn btn-warning" >Reset</button>
+
+                    </div>
+
+                </form>
+
+
+
+
+        </div>
+        </div>
 
 </main>
 <!--end main-->
