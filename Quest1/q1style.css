@@ -131,3 +131,33 @@ body{
     font-size:14px;
     font-family: "Abel", sans-serif;
 }
+
+.footer{
+    background: rgba(0, 120, 255, 0.3);
+    text-align:center;
+    height:auto;
+    margin:0 auto;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+.social-media a{
+    font-size: 30px;
+    padding-left: 60px;
+
+}
+
+.divf3 p{
+    font-size:12px;
+    font-family: "Abel", sans-serif;
+    padding:10px;
+    color:black;
+
+}
+
+.foot-links a{
+    padding:10px;
+    text-transform: lowercase;
+    color: darkolivegreen;
+    font-family: "Abel", sans-serif;
+}
