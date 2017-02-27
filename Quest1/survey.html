@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta  charset="UTF-8">
+    <meta charset="UTF-8">
     <title>Quest Online</title>
-    <link rel="stylesheet" type="text/css"  href="styles.html">
+    <link rel="stylesheet" type="text/css" href="styles.html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -67,8 +67,8 @@
 
 <!--start main-->
 <main>
-    <div class="well" id="div1g" class="div1g">
-        <h1> <strong>You are welcome to Quest Online Product Testing Platform</strong></h1>
+    <div id="div1g" class="container-fluid  div1g">
+        <h1><strong>You are welcome to Quest Online Product Testing Platform</strong></h1>
         <pre>
             <p>
                 Please input your product name and identification code assigned to
@@ -79,28 +79,36 @@
         </pre>
 
 
-            <div class="container-fluid">
-                <form id="div1gform" action="verify.php" method="post">
-                    <div class="form-group">
-                        <legend>Log in credentials</legend>
-                        <br/>
-                        <label for="name">Product Name:</label><br/>
-                        <input type="text" id="name" name="productname"  placeholder="30 characters max" maxlength="30" width="30" required /><br/><br/>
-                        <label for="code">Product Code:</label> <br/>
-                        <input type="text" id="code"  name="code" placeholder="16 characters only"  maxlength="16" required /><br/><br/>
-                        <input type="checkbox" name="agree" required/> I agree with the terms of use<br/><br/>
-                        <button type="submit" class="btn btn-info" >Submit</button>
-                        <button type="reset" class="btn btn-warning" >Reset</button>
+        <form id="form1" action="verify.php" method="post">
 
-                    </div>
+            <legend>Log in credentials</legend>
 
-                </form>
+            <div class="form-group">
+                <label for="name">Product Name:</label><br/>
+                <input type="text" class="form-control" id="name" name="productname" placeholder="30 characters max"
+                       maxlength="30"
+                       required/><br/>
+            </div>
+
+            <div class="form-group">
+                <label for="code">Product Code:</label> <br/>
+                <input type="text" class="form-control" id="code" name="code" placeholder="16 characters only"
+                       maxlength="16"
+                       required/><br/>
+            </div>
+
+            <div class="checkbox">
+                <label><input type="checkbox" name="agree" required/> <strong>I agree with the terms of
+                    use</strong></label><br/>
+            </div>
+
+            <button type="submit" class="btn btn-info">Submit</button>
+            <button type="reset" class="btn btn-warning">Reset</button>
 
 
+        </form>
 
-
-        </div>
-        </div>
+    </div>
 
 </main>
 <!--end main-->
@@ -154,7 +162,6 @@
         <p>&copy Quest Online is a registered trademark under the trade laws No.A149 001 B29 - All rights reserved
             2017</p>
     </div>
-
 
 
 </footer>
