@@ -11,34 +11,65 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+<!--start body-->
 <body>
-<header class="header">
-    <div id="divh1">
 
-        <img id="img1" src="" alt="Quest Online Logo"/>
-        <a class="classh1" href="admin_login.html">Log In</a>
+<!--start navbar-->
+<nav class="navbar navbar-inverse navbar-fixed-top id=my-navbar">
+    <!--start container-->
+    <div class="container-fluid">
+        <!--start navbar-header-->
+        <div class="navbar-header">
+            <a class="navbar-brand" href=""><img src="" alt="Q"/></a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!--end navbar-header-->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About.Us</a></li>
+                <li><a href="#testimonial">Testimonials</a></li>
+                <li><a href="survey.html">Log In</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--end container-->
+</nav>
+<!--end navbar-->
+
+
+<!--start jumbotron-->
+<div class="row2">
+    <div class="container-fluid">
 
     </div>
-    <div id="divh2" class="class2">
-        <a href="#">Sign in / Register</a>
+</div>
 
+<div class="jumbotron" id="jumbotron1">
+    <!--start container-->
+    <div class="container-fluid text-center">
+        <div class="class1">
+            <h2><strong>Share your opinion and get rewarded</strong></h2>
 
-    </div>
-    <div id="divh3" class="class3">
-        <h1>Share your opinion and get rewarded</h1>
-
-        <nav id="nav1">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                    <a href="survey.html">Take Survey</a>
-                    <a href="reward.html">Reward</a>
-                </li>
+            <ul class="list-unstyled list-inline">
+                <li><a href="#"><strong>Sign in / Register</strong></a></li>
+                <li><a href="survey.html"><strong>Take Survey</strong></a></li>
+                <li><a href="reward.html"><strong>Reward</strong></a></li>
             </ul>
 
-        </nav>
+        </div>
     </div>
-</header>
+    <!--end container-->
+</div>
+<!--end jumbotron-->
+
+
+<!--start main-->
 <main>
     <article id="article1a" class="article1a">
         <h1> <strong>UK's No:1 Product Testing Website <br> for Online Startup Shops</strong></h1>
@@ -143,64 +174,63 @@
     </section>
 
 </main>
-<footer class="footer" >
-    <div id="divf">
-        <div id="divf1">
-            <nav id="nav2">
-                <ul>
-                    <li><a href="aboutus.html"><strong>About.Us</strong></a></li>
-                    <li><a href="termsofuse.html"><strong>Terms.of.Use</strong></a></li>
-                    <li><a href="privacypolicy.html"><strong>Privacy.Policy</strong></a></li>
-                    <li><a href="disclaimer.html"><strong>Disclaimer</strong></a></li>
-                    <li><a href="faq.html"><strong>FAQs</strong></a></li>
-                    <li><a href="contactus.html"><strong>Contact.Us</strong></a></li>
-                </ul>
-            </nav>
-        </div>
+<!--end main-->
 
-        <div id="divf2" style="text-align:center;" >
+<!--start footer-->
+<footer class="footer">
 
-            <div id="facebook">
-                <a href="https://www.facebook.com"><i class="fa fa-facebook-official"></i> </a>
-            </div>
+    <!--start container-->
+    <div class="container">
 
-            <div id="flickr">
-                <a href="https://www.flickr.com"><i class="fa fa-flickr" style="color:blue"></i> </a>
-            </div>
+        <!--start nav-->
 
-            <div id="instagram">
-                <a href="https://www.instagram.com"><i class="fa fa-instagram" style="color:purple"></i> </a>
-            </div>
+        <ul class="list-inline foot-links">
+            <li><a href="aboutus.html"><strong>About.Us</strong></a></li>
+            <li><a href="termsofuse.html"><strong>Terms.of.Use</strong></a></li>
+            <li><a href="privacypolicy.html"><strong>Privacy.Policy</strong></a></li>
+            <li><a href="disclaimer.html"><strong>Disclaimer</strong></a></li>
+            <li><a href="faq.html"><strong>FAQs</strong></a></li>
+            <li><a href="contactus.html"><strong>Contact.Us</strong></a></li>
+        </ul>
 
-            <div id="linkedin">
-                <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square" style="color: darkcyan"></i> </a>
-            </div>
+        <!--end nav-->
 
-            <div id="pinterest">
-                <a href="https://www.pinterest.com"><i class="fa fa-pinterest-square" style="color:red"></i> </a>
-            </div>
-
-            <div id="snapchat">
-                <a href="https://www.snapchat.com"><i class="fa fa-snapchat-square" style="color:yellow"></i> </a>
-            </div>
-
-            <div id="tumblr">
-                <a href="https://www.tumblr.com"><i class="fa fa-tumblr-square" style="color: darkslategray"></i> </a>
-            </div>
-
-            <div id="twitter">
-                <a href="https://www.twitter.com"><i class="fa fa-twitter-square" style="color: deepskyblue"></i> </a>
-            </div>
-
-            <div id="youtube">
-                <a href="https://www.youtube.com"><i class="fa fa-youtube-play" style="color:darkred"></i> </a>
-            </div>
-        </div>
-
-        <div id="divf3">
-            <p>&copy Quest Online is a registered trademark under the trade laws No.A149 001 B29 - All rights reserved 2016</p>
-        </div>
     </div>
+    <!--end container-->
+
+    <!--start container-->
+    <div class="container">
+
+        <ul class="list-inline social-media">
+            <li><a href="https://www.facebook.com"><i class="fa fa-facebook-official"></i> </a></li>
+            <li><a href="https://www.flickr.com"><i class="fa fa-flickr" style="color:blue"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fa fa-instagram" style="color:purple"></i></a></li>
+            <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin-square" style="color: darkcyan"></i></a>
+            </li>
+            <li><a href="https://www.pinterest.com"><i class="fa fa-pinterest-square" style="color:red"></i></a></li>
+            <li><a href="https://www.snapchat.com"><i class="fa fa-snapchat-square" style="color:yellow"></i></a></li>
+            <li><a href="https://www.tumblr.com"><i class="fa fa-tumblr-square" style="color: darkslategray"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com"><i class="fa fa-twitter-square" style="color: deepskyblue"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com"><i class="fa fa-youtube-play" style="color:darkred"></i></a></li>
+        </ul>
+
+        <!--end nav-->
+
+    </div>
+    <!--end container-->
+
+    <div class="divf3">
+        <p>&copy Quest Online is a registered trademark under the trade laws No.A149 001 B29 - All rights reserved
+            2017</p>
+    </div>
+
+
+
 </footer>
+<!--end footer-->
+
 </body>
+<!--end body-->
 </html>
