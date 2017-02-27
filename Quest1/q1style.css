@@ -79,6 +79,22 @@ body{
     height:400px;
 }
 
-.blockquote h2{
+.well{
+
+}
+
+.d3h4 {font-family:"AR CENA", sans-serif;
+    color:rgba(0, 10, 255, 0.7);
     font-size:20px;
+}
+
+.d3a{
+    text-decoration: none;
+    background-color:rgba(0, 0, 0, 0.1);
+    border:2px solid darkorange;
+    color:darkred;
+    padding: 10px 10px;
+    text-align:center;
+    display:inline-block;
+    border-radius:12px;
 }
