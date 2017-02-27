@@ -291,6 +291,29 @@ body{
     color:black;
     text-align:justify;
     padding:40px;
+}
 
+#div1f{
+    background-color:black;
+}
 
+#div1f h1{
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+#div1f p{
+    font-family: "Abel", sans-serif;
+    font-size:15px;
+    color:white;
+    padding-top:20px;
+    padding-left:100px;
+    padding-right:100px;
+    text-align:justify;
 }
