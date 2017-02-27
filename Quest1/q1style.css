@@ -185,13 +185,14 @@ body{
 }
 
 #div1g h1{
-    font-size:28px;
+    font-size:22px;
     font-family: "Abel", sans-serif;
     color:darkred;
     text-align:center;
     padding-top:40px;
     padding-left:40px;
     padding-right:40px;
+    text-transform: uppercase;
 }
 
 #div1g p{
