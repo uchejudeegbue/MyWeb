@@ -69,8 +69,18 @@ body{
     background-size:100% 100%;
     background-position: center center;
     margin:0 auto;
+}
+
+.article1i {
+    height: auto;
+    background-image: url(capture.png);
+    background-attachment: inherit;
+    background-size: 100% 100%;
+    background-position: center center;
+    margin: 0 auto;
 
 }
+
 
 .article2a{
     background:rgba(0, 100, 255, 0.3);
