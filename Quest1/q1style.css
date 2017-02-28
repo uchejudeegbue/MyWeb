@@ -184,7 +184,7 @@ body{
 }
 
 .article1b {
-    height: 400px;
+    height: 600px;
     border: 1px solid #ddd;
     border-radius: 10px;
     background-image: url(contact2.jpg);
@@ -204,7 +204,7 @@ body{
 }
 
 .article2{
-    height:400px;
+    height:600px;
     background-color: rgba(0, 120, 255, 0.3);
     border: 3px solid #ddd;
     border-radius:10px;
@@ -511,6 +511,10 @@ body{
     padding-right:20px;
     padding-bottom:5px;
     text-align:left;
+}
+
+#address1d{
+    padding:40px;
 }
 
 .article1c {
