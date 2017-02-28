@@ -561,3 +561,58 @@ body{
     text-decoration:none;
     font-family: "Abel", sans-serif;
 }
+
+#congratulations{
+    color:darkorange;
+    font-size:16px;
+}
+
+#article2d p{
+    font-family: "Abel", sans-serif;
+    font-size:14px;
+    color:black;
+    padding-top:3px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:3px;
+    text-align:justify;
+}
+
+.article2d{
+    height:500px;
+    background-color: rgba(0, 120, 255, 0.3);
+    border: 3px solid #ddd;
+    border-radius:10px;
+    margin:0 auto;
+}
+
+#article2d h1{
+    font-family: "Abel", sans-serif;
+    font-size:16px;
+    color:darkred;
+    text-align: center;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:5px;
+}
+
+#article1d h1{
+    color:black;
+    text-align:center;
+    padding-top:5px;
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+    margin:0 auto;
+}
+
+.article1d{
+    background-image:url(smile.jpg);
+    height:500px;
+    border: 1px solid #ddd;
+    border-radius:10px;
+    background-attachment: inherit;
+    background-size:100% 100%;
+    background-position: center center;
+    margin:0 auto;
+}
