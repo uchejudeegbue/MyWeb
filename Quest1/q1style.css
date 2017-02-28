@@ -520,7 +520,7 @@ body{
 
 
 .article1c {
-    height: 500px;
+    height: 600px;
     border: 1px solid #ddd;
     border-radius: 10px;
     background-image: url(cover.jpg);
@@ -540,7 +540,7 @@ body{
 }
 
 .article2c{
-    height:500px;
+    height:600px;
     background-color: rgba(0, 120, 255, 0.3);
     border: 3px solid #ddd;
     border-radius:10px;
@@ -563,10 +563,10 @@ body{
     font-family: "Abel", sans-serif;
     font-size:14px;
     color:black;
-    padding-top:5px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-bottom:5px;
+    padding-top:10px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom:20px;
     text-align:justify;
 }
 
@@ -629,4 +629,8 @@ body{
     background-size:100% 100%;
     background-position: center center;
     margin:0 auto;
+}
+
+#img2{
+    padding:20px;
 }
