@@ -71,32 +71,33 @@ body{
     margin:0 auto;
 }
 
-.product1 {
+.article1i {
     background-image:url(capture1.jpg);
     background-attachment: inherit;
     background-size: 100% 100%;
     background-position: center center;
     margin: 0 auto;
-    height:400px;
+    height:380px;
+
 }
-.product2{
-    height:400%;
+.article2i{
+    height:380px;
     background-color: white;
     margin:0 auto;
 }
 
-#product2 h1{
+#article2i h1{
     font-family: "Abel", sans-serif;
     font-size:16px;
     color:darkred;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-left:10px;
     padding-right:10px;
-    padding-bottom:70px;
+    padding-bottom:30px;
 }
 
-#product2 p{
+#article2i p{
     font-family: "Abel", sans-serif;
     font-size:14px;
     color:black;
@@ -169,10 +170,9 @@ body{
 }
 
 #div1i {
-
-    height: 450px;
     background-color: white;
     border: 10px solid darkorange;
+    padding-bottom:20px;
 }
 
 
