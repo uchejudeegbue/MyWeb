@@ -585,10 +585,10 @@ body{
     font-family: "Abel", sans-serif;
     font-size:14px;
     color:black;
-    padding-top:3px;
-    padding-left:10px;
-    padding-right:10px;
-    padding-bottom:3px;
+    padding-top:10px;
+    padding-left:60px;
+    padding-right:60px;
+    padding-bottom:10px;
     text-align:justify;
 }
 
@@ -608,7 +608,7 @@ body{
     padding-top: 5px;
     padding-left:10px;
     padding-right:10px;
-    padding-bottom:5px;
+    padding-bottom:10px;
 }
 
 #article1d h1{
