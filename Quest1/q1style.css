@@ -63,7 +63,7 @@ body{
 
 .article1a{
     background-image:url(femme.jpg);
-    height:600px;
+    height:500px;
     border: 3px solid #ddd;
     border-radius:10px;
     background-attachment: inherit;
@@ -124,7 +124,7 @@ body{
 
 .article2a{
     background:rgba(0, 100, 255, 0.3);
-    height:600px;
+    height:500px;
 }
 
 #article2a h1 {
@@ -184,7 +184,7 @@ body{
 }
 
 .article1b {
-    height: 600px;
+    height: 500px;
     border: 1px solid #ddd;
     border-radius: 10px;
     background-image: url(contact2.jpg);
@@ -204,7 +204,7 @@ body{
 }
 
 .article2{
-    height:600px;
+    height:500px;
     background-color: rgba(0, 120, 255, 0.3);
     border: 3px solid #ddd;
     border-radius:10px;
@@ -520,7 +520,7 @@ body{
 
 
 .article1c {
-    height: 600px;
+    height: 500px;
     border: 1px solid #ddd;
     border-radius: 10px;
     background-image: url(cover.jpg);
@@ -540,7 +540,7 @@ body{
 }
 
 .article2c{
-    height:600px;
+    height:500px;
     background-color: rgba(0, 120, 255, 0.3);
     border: 3px solid #ddd;
     border-radius:10px;
@@ -593,7 +593,7 @@ body{
 }
 
 .article2d{
-    height:600px;
+    height:500px;
     background-color: rgba(0, 120, 255, 0.3);
     border: 3px solid #ddd;
     border-radius:10px;
@@ -622,7 +622,7 @@ body{
 
 .article1d{
     background-image:url(smile.jpg);
-    height:600px;
+    height:500px;
     border: 1px solid #ddd;
     border-radius:10px;
     background-attachment: inherit;
