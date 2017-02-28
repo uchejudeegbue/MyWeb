@@ -175,6 +175,32 @@ body{
     padding-bottom:20px;
 }
 
+.article1b {
+    height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-image: url(contact2.jpg);
+    background-attachment: inherit;
+    background-size: 100% 100%;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+#article1b h1{
+    color:blue;
+    text-align:center;
+    padding-top:5px;
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+}
+
+.article2{
+    height:400px;
+    background-color: rgba(0, 120, 255, 0.3);
+    border: 3px solid #ddd;
+    border-radius:10px;
+    margin:0 auto;
+}
 
 
 
