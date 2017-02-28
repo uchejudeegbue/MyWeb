@@ -135,7 +135,7 @@ body{
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     text-transform:uppercase;
 }
 
@@ -145,8 +145,8 @@ body{
     color:black;
     padding-left:60px;
     padding-right:60px;
-    padding-top:40px;
-    padding-bottom:40px;
+    padding-top:20px;
+    padding-bottom:30px;
 
 }
 
@@ -593,7 +593,7 @@ body{
 }
 
 .article2d{
-    height:500px;
+    height:600px;
     background-color: rgba(0, 120, 255, 0.3);
     border: 3px solid #ddd;
     border-radius:10px;
@@ -622,7 +622,7 @@ body{
 
 .article1d{
     background-image:url(smile.jpg);
-    height:500px;
+    height:600px;
     border: 1px solid #ddd;
     border-radius:10px;
     background-attachment: inherit;
