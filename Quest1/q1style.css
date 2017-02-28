@@ -73,13 +73,52 @@ body{
 
 .article1i {
     height: auto;
-    background-image: url(capture.png);
+    background-image:url(capture1.jpg);
     background-attachment: inherit;
     background-size: 100% 100%;
     background-position: center center;
     margin: 0 auto;
 
 }
+.article2i{
+    height:100%;
+    background-color: white;
+    margin:0 auto;
+}
+
+#article2i h1{
+    font-family: "Abel", sans-serif;
+    font-size:16px;
+    color:darkred;
+    text-align: center;
+    padding-top: 70px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:70px;
+}
+
+#article2i p{
+    font-family: "Abel", sans-serif;
+    font-size:14px;
+    color:black;
+    padding-top:40px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:40px;
+    text-align:center;
+}
+
+#continuebutton{
+    background-color:darkorange;
+    border:none;
+    color:darkred;
+    padding: 15px 25px;
+    text-align:center;
+    display:inline-block;
+    border-radius:12px;
+    text-decoration:none;
+}
+
 
 
 .article2a{
@@ -128,6 +167,13 @@ body{
     text-align:center;
     display:inline-block;
     border-radius:12px;
+}
+
+#div1i {
+
+    height: 400px;
+    background-color: white;
+    border: 10px solid darkorange;
 }
 
 
