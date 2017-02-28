@@ -102,10 +102,10 @@ body{
     font-family: "Abel", sans-serif;
     font-size:14px;
     color:black;
-    padding-top:40px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-bottom:40px;
+    padding-top:30px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:30px;
     text-align:center;
 }
 
@@ -143,10 +143,10 @@ body{
     font-family: "Abel", sans-serif;
     font-size:16px;
     color:black;
-    padding-left:60px;
-    padding-right:60px;
+    padding-left:30px;
+    padding-right:30px;
     padding-top:10px;
-    padding-bottom:30px;
+    padding-bottom:10px;
 
 }
 
@@ -564,9 +564,9 @@ body{
     font-size:14px;
     color:black;
     padding-top:10px;
-    padding-left:40px;
-    padding-right:40px;
-    padding-bottom:20px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:10px;
     text-align:justify;
 }
 
@@ -586,8 +586,8 @@ body{
     font-size:14px;
     color:black;
     padding-top:10px;
-    padding-left:60px;
-    padding-right:60px;
+    padding-left:30px;
+    padding-right:30px;
     padding-bottom:10px;
     text-align:justify;
 }
