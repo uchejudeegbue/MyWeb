@@ -191,7 +191,8 @@ body{
     text-align:center;
     padding-top:5px;
     font-family: "Abel", sans-serif;
-    font-size:22px;
+    font-size:24px;
+    text-transform:uppercase;
 }
 
 .article2{
@@ -204,13 +205,14 @@ body{
 
 #article2 h4{
     font-family: "Abel", sans-serif;
-    font-size:20px;
+    font-size:18px;
     color:darkred;
     text-align: center;
     padding-top: 20px;
     padding-left:10px;
     padding-right:10px;
     padding-bottom:10px;
+    text-transform:uppercase;
 }
 
 
