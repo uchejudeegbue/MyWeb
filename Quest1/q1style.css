@@ -71,22 +71,20 @@ body{
     margin:0 auto;
 }
 
-.article1i {
-    height: auto;
-    background-image:url(capture1.jpg);
+.product1 {
+    background-image:url(capture3.jpg);
     background-attachment: inherit;
     background-size: 100% 100%;
     background-position: center center;
     margin: 0 auto;
-
 }
-.article2i{
+.product2{
     height:100%;
     background-color: white;
     margin:0 auto;
 }
 
-#article2i h1{
+#product2 h1{
     font-family: "Abel", sans-serif;
     font-size:16px;
     color:darkred;
@@ -97,7 +95,7 @@ body{
     padding-bottom:70px;
 }
 
-#article2i p{
+#product2 p{
     font-family: "Abel", sans-serif;
     font-size:14px;
     color:black;
