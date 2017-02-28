@@ -63,7 +63,7 @@ body{
 
 .article1a{
     background-image:url(femme.jpg);
-    height:700px;
+    height:600px;
     border: 3px solid #ddd;
     border-radius:10px;
     background-attachment: inherit;
@@ -124,7 +124,7 @@ body{
 
 .article2a{
     background:rgba(0, 100, 255, 0.3);
-    height:700px;
+    height:600px;
 }
 
 #article2a h1 {
