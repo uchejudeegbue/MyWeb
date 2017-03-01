@@ -632,6 +632,7 @@ body{
 
 .column0{
     height:250px;
+    padding:20px;
 
 }
 
@@ -652,5 +653,11 @@ body{
 }
 
 #col1 {
+
+}
+
+.thumbnail{
+    background-image: url(we.jpg);
+    height:200px;
 
 }
