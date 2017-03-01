@@ -629,3 +629,28 @@ body{
 #img2{
     padding:10px;
 }
+
+.column0{
+    height:250px;
+
+}
+
+.column0 h2{
+    text-align: center;
+    color:darkred;
+    font-size:14px;
+    text-transform:uppercase;
+    padding-top:10px;
+    font-family:"Abel", sans-serif;
+}
+.column0 p{
+    text-align: justify;
+    color:black;
+    font-size:14px;
+    padding:10px;
+    font-family:"Abel", sans-serif;
+}
+
+#col1 {
+
+}
