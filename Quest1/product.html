@@ -118,18 +118,18 @@
     <div class="container">
 
         <ul class="list-inline social-media">
-            <li><a href="https://www.facebook.com"><i class="fa fa-facebook-official"></i> </a></li>
-            <li><a href="https://www.flickr.com"><i class="fa fa-flickr" style="color:blue"></i></a></li>
-            <li><a href="https://www.instagram.com"><i class="fa fa-instagram" style="color:purple"></i></a></li>
-            <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin-square" style="color: darkcyan"></i></a>
+            <li><a href="https://www.facebook.com #" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook-official"></i> </a></li>
+            <li><a href="https://www.flickr.com #" data-toggle="tooltip" title="Flickr"><i class="fa fa-flickr" style="color:blue"></i></a></li>
+            <li><a href="https://www.instagram.com #" data-toggle="tooltip" title="Instagram"><i class="fa fa-instagram" style="color:purple"></i></a></li>
+            <li><a href="https://www.linkedin.com #" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin-square" style="color: darkcyan"></i></a>
             </li>
-            <li><a href="https://www.pinterest.com"><i class="fa fa-pinterest-square" style="color:red"></i></a></li>
-            <li><a href="https://www.snapchat.com"><i class="fa fa-snapchat-square" style="color:yellow"></i></a></li>
-            <li><a href="https://www.tumblr.com"><i class="fa fa-tumblr-square" style="color: darkslategray"></i></a>
+            <li><a href="https://www.pinterest.com #" data-toggle="tooltip" title="Pinterest"><i class="fa fa-pinterest-square" style="color:red"></i></a></li>
+            <li><a href="https://www.snapchat.com #" data-toggle="tooltip" title="Snapchat"><i class="fa fa-snapchat-square" style="color:yellow"></i></a></li>
+            <li><a href="https://www.tumblr.com #" data-toggle="tooltip" title="Tumblr"><i class="fa fa-tumblr-square" style="color: darkslategray"></i></a>
             </li>
-            <li><a href="https://www.twitter.com"><i class="fa fa-twitter-square" style="color: deepskyblue"></i></a>
+            <li><a href="https://www.twitter.com #" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter-square" style="color: deepskyblue"></i></a>
             </li>
-            <li><a href="https://www.youtube.com"><i class="fa fa-youtube-play" style="color:darkred"></i></a></li>
+            <li><a href="https://www.youtube.com #" data-toggle="tooltip" title="YouTube"><i class="fa fa-youtube-play" style="color:darkred"></i></a></li>
         </ul>
 
         <!--end nav-->
@@ -142,6 +142,13 @@
             2017</p>
     </div>
 
+    <!--start jquery script-->
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    <!--end j query script-->
 
 </footer>
 <!--end footer-->
