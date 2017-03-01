@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     border:0;
+    box-sizing:border-box;
 }
 
 
@@ -121,7 +122,6 @@ body{
 }
 
 
-
 .article2a{
     background:rgba(0, 100, 255, 0.3);
     height:500px;
@@ -135,7 +135,7 @@ body{
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-transform:uppercase;
 }
 
@@ -147,12 +147,11 @@ body{
     padding-right:30px;
     padding-top:10px;
     padding-bottom:10px;
-
 }
 
 #article2a hr{
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 
 .fa-hand-o-right{
@@ -518,7 +517,6 @@ body{
 }
 
 
-
 .article1c {
     height: 500px;
     border: 1px solid #ddd;
@@ -563,10 +561,9 @@ body{
     font-family: "Abel", sans-serif;
     font-size:14px;
     color:black;
-    padding-top:10px;
-    padding-left:30px;
-    padding-right:30px;
-    padding-bottom:10px;
+    padding-top:5px;
+    padding-left:20px;
+    padding-right:20px;
     text-align:justify;
 }
 
@@ -585,10 +582,8 @@ body{
     font-family: "Abel", sans-serif;
     font-size:14px;
     color:black;
-    padding-top:10px;
-    padding-left:30px;
-    padding-right:30px;
-    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
     text-align:justify;
 }
 
@@ -632,5 +627,5 @@ body{
 }
 
 #img2{
-    padding:20px;
+    padding:10px;
 }
