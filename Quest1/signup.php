@@ -1,6 +1,6 @@
 <?php
-
-    if(isset($_GET['id']){
+$message="";
+    if(isset($_GET['id'])){
 
     $message = "Invalid signup credentials... Please contact admin for help";
 }
@@ -82,10 +82,10 @@
             <p>
                 This is a secured location. Please provide the necessary details to sign up
             </p>
-
+                <p style="color:red"> <?php echo $message; ?></p>
         </div>
 
-                <?php echo $message; ?>
+
         <form id="form1" action="rejection.php" method="post">
 
 
