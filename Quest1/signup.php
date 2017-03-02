@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+
+    if(isset($_GET['id']){
+
+    $message = "Invalid signup credentials... Please contact admin for help";
+}
+
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -78,7 +85,7 @@
 
         </div>
 
-
+                <?php echo $message; ?>
         <form id="form1" action="rejection.php" method="post">
 
 
