@@ -14,7 +14,7 @@ $result = mysql_query($query);
 while($row = mysql_fetch_array($result, MYSQL_ASSOC))
 {
 echo "User ID :{$row['user_ID']} <br>" .
-"Age : {$row['response1']} <br>" . 
+"Age : {$row['response1']} <br>" .
 "clanwebsite : {$row['clanwebsite']} <br><br>";
 }
 mysql_close($conn);

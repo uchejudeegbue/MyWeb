@@ -11,36 +11,12 @@ mysql_select_db($dbname);
 
 $query = "SELECT * FROM responce";
 $result = mysql_query($query);
+?>
+<table border="5" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#808080" width="100%" id="AutoNumber2" bgcolor="#C0C0C0">
+  <th>User ID :</th>
+  <?php
 while($row = mysql_fetch_array($result, MYSQL_ASSOC))
-{
-
-echo "<th>User ID :</th>
-    <th>Age :</th>". "<td>{$row['user_ID']}</td>" .
-"<td>{$row['response1']} </td>";
 
 mysql_close($conn);
 
 ?>
-
-<html>
-<table border="5" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#808080" width="100%" id="AutoNumber2" bgcolor="#C0C0C0">
-  <tr>
-    <td width="14%" align="center">Clan</td>
-    <td width="14%" align="center">Clan Website</td>
-    <td width="14%" align="center">Number of Players</td>
-    <td width="14%" align="center">Gametype</td>
-    <td width="14%" align="center">Map</td>
-    <td width="15%" align="center">Date</td>
-    <td width="15%" align="center">Result</td>
-  </tr>
-  <tr>
-    <td width="14%" align="center">&nbsp;</td>
-    <td width="14%" align="center"><?php {echo "{$row['clanwebsite']}";} ?></td>
-    <td width="14%" align="center">&nbsp;</td>
-    <td width="14%" align="center">&nbsp;</td>
-    <td width="14%" align="center">&nbsp;</td>
-    <td width="15%" align="center">&nbsp;</td>
-    <td width="15%" align="center">&nbsp;</td>
-  </tr>
-</table>
-</html>
