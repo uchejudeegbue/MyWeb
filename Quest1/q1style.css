@@ -106,13 +106,19 @@
     margin:0 auto;
 }
 
-.article1i {
+/* .article1i {
     background-image:url(capture1.jpg);
     background-attachment: inherit;
     background-size: 100% 100%;
     background-position: center center;
     margin: 0 auto;
     height:380px;
+}*/
+
+#article1img{
+    height:380px;
+    margin:0;
+    padding:0;
 }
 
 .article2{
