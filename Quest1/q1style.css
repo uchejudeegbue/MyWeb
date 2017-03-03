@@ -29,7 +29,7 @@
     border: 3px solid #ddd;
     border-radius:10px;
     background-attachment: inherit;
-    background-size:100% 100%;
+    background-size:cover;
     background-position: center center;
     margin:0 auto;
 }
@@ -260,7 +260,7 @@
 }
 
 body{
-    max-width:100%;
+    /*max-width:100%;*/
     background-color: lightyellow;
     padding:0;
     border:0;
