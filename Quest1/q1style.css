@@ -2,64 +2,25 @@
     padding:0;
     margin:0;
     border:0;
-
 }
 
-
-body{
-    max-width:100%;
-    background-color: lightyellow;
-    padding:0;
-    border:0;
-    height:auto;
-}
-
-.navbar-default{
-    color:blue;
-}
-
-
-
-.navbar-default{
-    background: rgba(0, 120, 255, 0.2);
-}
-
-.class2{
-    width: 100%;
-    height: 30px;
-    background-color:rgba(0, 0, 0, 0.6);
-    margin:0;
-    border:0;
-    padding:0;
-}
-
-.header{
-    margin:0;
-    border:0;
-    padding:0;
-}
-
-.row2{
-
-    padding:30px;
-    background:white;
-}
-
-#jumbotron1{
-    background:darkorange;
-    padding:0;
-    margin:0;
-    border:0;
-}
-
-#jumbotron1 a{
-    color:black;
-}
-.class1 h2{
-    padding:0;
-    border:0;
-    color:white;
+#address1b{
     font-family: "Abel", sans-serif;
+    font-size:14px;
+    color:black;
+    padding-top:10px;
+    padding-left:40px;
+    padding-right:20px;
+    padding-bottom:5px;
+    text-align:left;
+}
+
+#address1d{
+    padding:40px;
+}
+
+#address1e{
+    padding-left:100px;
 }
 
 .article1a{
@@ -73,6 +34,74 @@ body{
     margin:0 auto;
 }
 
+#article1a h1{
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-family: "Abel", sans-serif;
+    font-size:30px;
+}
+
+.article1b {
+    height: 500px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-image: url(contact2.jpg);
+    background-attachment: inherit;
+    background-size: 100% 100%;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+#article1b h1{
+    color:blue;
+    text-align:center;
+    padding-top:5px;
+    font-family: "Abel", sans-serif;
+    font-size:24px;
+    text-transform:uppercase;
+}
+
+.article1c {
+    height: 500px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-image: url(cover.jpg);
+    background-attachment: inherit;
+    background-size: 100% 100%;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+#article1c h1{
+    color:red;
+    text-align:center;
+    padding-top:5px;
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+    text-transform:uppercase;
+}
+
+.article1d{
+    background-image:url(smile.jpg);
+    height:500px;
+    border: 1px solid #ddd;
+    border-radius:10px;
+    background-attachment: inherit;
+    background-size:100% 100%;
+    background-position: center center;
+    margin:0 auto;
+}
+
+#article1d h1{
+    color:black;
+    text-align:center;
+    padding-top:20px;
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+    margin:0 auto;
+}
+
 .article1i {
     background-image:url(capture1.jpg);
     background-attachment: inherit;
@@ -80,47 +109,27 @@ body{
     background-position: center center;
     margin: 0 auto;
     height:380px;
-
 }
-.article2i{
-    height:380px;
-    background-color: white;
+
+.article2{
+    height:500px;
+    background-color: rgba(0, 120, 255, 0.3);
+    border: 3px solid #ddd;
+    border-radius:10px;
     margin:0 auto;
 }
 
-#article2i h1{
+#article2 h4{
     font-family: "Abel", sans-serif;
-    font-size:16px;
+    font-size:18px;
     color:darkred;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left:10px;
     padding-right:10px;
-    padding-bottom:30px;
+    padding-bottom:10px;
+    text-transform:uppercase;
 }
-
-#article2i p{
-    font-family: "Abel", sans-serif;
-    font-size:14px;
-    color:black;
-    padding-top:30px;
-    padding-left:10px;
-    padding-right:10px;
-    padding-bottom:30px;
-    text-align:center;
-}
-
-#continuebutton{
-    background-color:darkorange;
-    border:none;
-    color:darkred;
-    padding: 15px 25px;
-    text-align:center;
-    display:inline-block;
-    border-radius:12px;
-    text-decoration:none;
-}
-
 
 .article2a{
     background:rgba(0, 100, 255, 0.3);
@@ -154,389 +163,6 @@ body{
     padding-bottom:5px;
 }
 
-.fa-hand-o-right{
-    color:darkred;
-    font-size:30px;
-    padding-right:20px;
-    padding-top:20px;
-}
-
-#fabulous{
-    color:darkorange;
-    font-size:16px;
-}
-
-#surveybutton{
-    background-color:darkorange;
-    border:none;
-    color:darkred;
-    padding: 20px 25px;
-    text-align:center;
-    display:inline-block;
-    border-radius:12px;
-}
-
-#div1i {
-    background-color: white;
-    border: 10px solid darkorange;
-    padding-bottom:20px;
-}
-
-.article1b {
-    height: 500px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-image: url(contact2.jpg);
-    background-attachment: inherit;
-    background-size: 100% 100%;
-    background-position: center center;
-    margin: 0 auto;
-}
-
-#article1b h1{
-    color:blue;
-    text-align:center;
-    padding-top:5px;
-    font-family: "Abel", sans-serif;
-    font-size:24px;
-    text-transform:uppercase;
-}
-
-.article2{
-    height:500px;
-    background-color: rgba(0, 120, 255, 0.3);
-    border: 3px solid #ddd;
-    border-radius:10px;
-    margin:0 auto;
-}
-
-#article2 h4{
-    font-family: "Abel", sans-serif;
-    font-size:18px;
-    color:darkred;
-    text-align: center;
-    padding-top: 20px;
-    padding-left:10px;
-    padding-right:10px;
-    padding-bottom:10px;
-    text-transform:uppercase;
-}
-
-
-.well{
-    background-color: rgba(0, 0, 0, 0.1);
-    border:0;
-    margin:0 auto;
-    padding-top:20px;
-    padding-bottom:40px;
-    font-size:14px;
-    font-family: "Abel", sans-serif;
-}
-
-.well h2{
-    font-size:25px;
-    font-family: "Abel", sans-serif;
-    padding-bottom:40px;
-}
-
-.d3h4 {
-    font-family:"AR CENA", sans-serif;
-    color:rgba(0, 10, 255, 0.7);
-    font-size:20px;
-}
-
-.d3a{
-    text-decoration: none;
-    background-color:rgba(0, 0, 0, 0.1);
-    border:2px solid darkorange;
-    color:darkred;
-    padding: 10px 10px;
-    text-align:center;
-    display:inline-block;
-    border-radius:12px;
-    font-family: "Abel", sans-serif;
-}
-
-.block h3{
-    font-size:14px;
-    font-family: "Abel", sans-serif;
-}
-
-.block p{
-    font-size:12px;
-    font-family: "Abel", sans-serif;
-}
-
-#testimonial h2{
-    font-size:22px;
-    font-family: "Abel", sans-serif;
-}
-
-#testimonial p{
-    font-size:14px;
-    font-family: "Abel", sans-serif;
-}
-
-.footer{
-    background: rgba(0, 120, 255, 0.3);
-    text-align:center;
-    height:auto;
-    margin:0 auto;
-    padding-bottom:20px;
-    padding-top:20px;
-}
-
-.social-media a{
-    font-size: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-
-}
-
-.divf3 p{
-    font-size:12px;
-    font-family: "Abel", sans-serif;
-    padding-left:10px;
-    padding-right:10px;
-    padding-bottom:10px;
-    color:black;
-    padding-top:30px;
-
-}
-
-.foot-links a{
-    padding:10px;
-    padding-bottom:30px;
-    text-transform: lowercase;
-    color: darkolivegreen;
-    font-family: "Abel", sans-serif;
-}
-
-.social-media{
-    padding-top:30px;
-
-}
-
-.form-control{
-    width:30%;
-}
-
-.div1g{
-
-    height:auto;
-    background-color: rgba(0, 0, 0, 0.1);
-    border:10px solid darkorange;
-}
-
-#div1g h1{
-    font-size:22px;
-    font-family: "Abel", sans-serif;
-    color:darkred;
-    text-align:center;
-    padding-top:40px;
-    padding-left:40px;
-    padding-right:40px;
-    text-transform: uppercase;
-}
-
-#div1g p{
-    font-size:20px;
-    font-family: "Abel", sans-serif;
-    color:black;
-    text-align:left;
-    padding-left:20px;
-    padding-right:20px;
-}
-
-#form1{
-    padding-left:60px;
-    padding-bottom:50px;
-
-}
-
-#pre1{
-    padding:60px;
-}
-
-#form2{
-    padding-left:60px;
-    padding-top:40px;
-    padding-bottom:50px;
-}
-
-#div1h h2{
-
-    font-family: "Abel", sans-serif;
-    color:darkred;
-    text-align:center;
-    padding-top:40px;
-    padding-left:40px;
-    padding-right:40px;
-    text-transform: uppercase;
-}
-
-#pre2{
-    padding-left:60px;
-    padding-top:30px;
-}
-
-#pre2 p{
-    font-size:20px;
-    font-family: "Abel", sans-serif;
-    color:black;
-    text-align:left;
-}
-
-#offer{
-    height:auto;
-    border:10px solid darkorange;
-    padding:0;
-    min-height:400px;
- }
-
-#offer p{
-    font-size:16px;
-    font-family: "Abel", sans-serif;
-    color:black;
-    padding-bottom:40px;
-}
-
-#offerh2a{
-    font-size:24px;
-    font-family: "Abel", sans-serif;
-    color:darkred;
-}
-
-#offerh2b{
-    font-size:20px;
-    font-family: "Abel", sans-serif;
-    color:black;
-}
-
-
-
-.b1:hover{
-    background-color:darkorange;
-    color:white;
-}
-
-.button{
-    color:darkred;
-    padding:16px 20px;
-    text-decoration:none;
-    background-color:white;
-    border-radius:4px;
-
-}
-
-.faq{
-    font-size:20px;
-    font-family: "Abel", sans-serif;
-    color:black;
-    text-align:justify;
-    padding:40px;
-}
-
-#div1f{
-    background-color:black;
-}
-
-#div1f h1{
-    font-family: "Abel", sans-serif;
-    font-size:22px;
-    color:white;
-    text-align: center;
-    padding-top: 10px;
-    padding-left:10px;
-    padding-right:10px;
-    padding-bottom:10px;
-}
-
-#div1f p{
-    font-family: "Abel", sans-serif;
-    font-size:15px;
-    color:white;
-    padding-top:20px;
-    padding-left:100px;
-    padding-right:100px;
-    text-align:justify;
-}
-
-#div1e p{
-    font-family: "Abel", sans-serif;
-    font-size:14px;
-    color:black;
-    padding-top:10px;
-    padding-left:100px;
-    padding-right:100px;
-    text-align:justify;
-}
-
-#div1e h1{
-    font-family: "Abel", sans-serif;
-    font-size:22px;
-    color:black;
-    text-align: center;
-    padding-top: 10px;
-    padding-left:10px;
-    padding-right:10px;
-    padding-bottom:5px;
-    text-transform: uppercase;
-}
-
-#div1e{
-    border:10px solid darkorange;
-    background-color:white;
-}
-
-#address1e{
-    padding-left:100px;
-}
-
-#article1a h1{
-    color:white;
-    text-align:center;
-    padding:5px;
-    font-family: "Abel", sans-serif;
-    font-size:30px;
-}
-
-#address1b{
-    font-family: "Abel", sans-serif;
-    font-size:14px;
-    color:black;
-    padding-top:10px;
-    padding-left:40px;
-    padding-right:20px;
-    padding-bottom:5px;
-    text-align:left;
-}
-
-#address1d{
-    padding:40px;
-}
-
-
-.article1c {
-    height: 500px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-image: url(cover.jpg);
-    background-attachment: inherit;
-    background-size: 100% 100%;
-    background-position: center center;
-    margin: 0 auto;
-}
-
-#article1c h1{
-    color:red;
-    text-align:center;
-    padding-top:5px;
-    font-family: "Abel", sans-serif;
-    font-size:22px;
-    text-transform:uppercase;
-}
-
 .article2c{
     height:500px;
     background-color: rgba(0, 120, 255, 0.3);
@@ -567,26 +193,6 @@ body{
     text-align:justify;
 }
 
-#rewardbutton{
-    color:darkorange;
-    text-decoration:none;
-    font-family: "Abel", sans-serif;
-}
-
-#congratulations{
-    color:darkorange;
-    font-size:16px;
-}
-
-#article2d p{
-    font-family: "Abel", sans-serif;
-    font-size:14px;
-    color:black;
-    padding-left:15px;
-    padding-right:15px;
-    text-align:justify;
-}
-
 .article2d{
     height:500px;
     background-color: rgba(0, 120, 255, 0.3);
@@ -606,34 +212,93 @@ body{
     padding-bottom:10px;
 }
 
-#article1d h1{
-    color:black;
-    text-align:center;
-    padding-top:20px;
+#article2d p{
     font-family: "Abel", sans-serif;
-    font-size:22px;
+    font-size:14px;
+    color:black;
+    padding-left:15px;
+    padding-right:15px;
+    text-align:justify;
+}
+
+.article2i{
+    height:380px;
+    background-color: white;
     margin:0 auto;
 }
 
-.article1d{
-    background-image:url(smile.jpg);
-    height:500px;
-    border: 1px solid #ddd;
-    border-radius:10px;
-    background-attachment: inherit;
-    background-size:100% 100%;
-    background-position: center center;
-    margin:0 auto;
+#article2i h1{
+    font-family: "Abel", sans-serif;
+    font-size:16px;
+    color:darkred;
+    text-align: center;
+    padding-top: 30px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:30px;
 }
 
-#img2{
-    padding:10px;
+#article2i p{
+    font-family: "Abel", sans-serif;
+    font-size:14px;
+    color:black;
+    padding-top:30px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:30px;
+    text-align:center;
+}
+
+.block h3{
+    font-size:14px;
+    font-family: "Abel", sans-serif;
+}
+
+.block p{
+    font-size:12px;
+    font-family: "Abel", sans-serif;
+}
+
+body{
+    max-width:100%;
+    background-color: lightyellow;
+    padding:0;
+    border:0;
+    height:auto;
+}
+
+.button{
+    color:darkred;
+    padding:16px 20px;
+    text-decoration:none;
+    background-color:white;
+    border-radius:4px;
+}
+
+.b1:hover{
+    background-color:darkorange;
+    color:white;
+}
+
+.class1 h2{
+    padding:0;
+    border:0;
+    color:white;
+    font-family: "Abel", sans-serif;
+}
+
+.class2{
+    width: 100%;
+    height: 30px;
+    background-color:rgba(0, 0, 0, 0.6);
+    margin:0;
+    border:0;
+    padding:0;
 }
 
 .column0{
     height:250px;
     padding:20px;
-
 }
 
 .column0 h2{
@@ -682,14 +347,328 @@ body{
     margin:0 auto;
 }
 
-.thumbnail{
-    background: white;
-    height:200px;
+#congratulations{
+    color:darkorange;
+    font-size:16px;
+}
 
+#continuebutton{
+    background-color:darkorange;
+    border:none;
+    color:darkred;
+    padding: 15px 25px;
+    text-align:center;
+    display:inline-block;
+    border-radius:12px;
+    text-decoration:none;
+}
+
+.d3a{
+    text-decoration: none;
+    background-color:rgba(0, 0, 0, 0.1);
+    border:2px solid darkorange;
+    color:darkred;
+    padding: 10px 10px;
+    text-align:center;
+    display:inline-block;
+    border-radius:12px;
+    font-family: "Abel", sans-serif;
+}
+
+.d3h4 {
+    font-family:"AR CENA", sans-serif;
+    color:rgba(0, 10, 255, 0.7);
+    font-size:20px;
+}
+
+#div1e{
+    border:10px solid darkorange;
+    background-color:white;
+}
+
+#div1e h1{
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+    color:black;
+    text-align: center;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:5px;
+    text-transform: uppercase;
+}
+
+#div1e p{
+    font-family: "Abel", sans-serif;
+    font-size:14px;
+    color:black;
+    padding-top:10px;
+    padding-left:100px;
+    padding-right:100px;
+    text-align:justify;
+}
+
+#div1f{
+    background-color:black;
+}
+
+#div1f h1{
+    font-family: "Abel", sans-serif;
+    font-size:22px;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+#div1f p{
+    font-family: "Abel", sans-serif;
+    font-size:15px;
+    color:white;
+    padding-top:20px;
+    padding-left:100px;
+    padding-right:100px;
+    text-align:justify;
+}
+
+.divf3 p{
+    font-size:12px;
+    font-family: "Abel", sans-serif;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    color:black;
+    padding-top:30px;
+}
+
+.div1g{
+    height:auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    border:10px solid darkorange;
+}
+
+#div1g h1{
+    font-size:22px;
+    font-family: "Abel", sans-serif;
+    color:darkred;
+    text-align:center;
+    padding-top:40px;
+    padding-left:40px;
+    padding-right:40px;
+    text-transform: uppercase;
+}
+
+#div1g p{
+    font-size:20px;
+    font-family: "Abel", sans-serif;
+    color:black;
+    text-align:left;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#div1h h2{
+    font-family: "Abel", sans-serif;
+    color:darkred;
+    text-align:center;
+    padding-top:40px;
+    padding-left:40px;
+    padding-right:40px;
+    text-transform: uppercase;
+}
+
+#div1i {
+    background-color: white;
+    border: 10px solid darkorange;
+    padding-bottom:20px;
+}
+
+.fa-hand-o-right{
+    color:darkred;
+    font-size:30px;
+    padding-right:20px;
+    padding-top:20px;
+}
+
+#fabulous{
+    color:darkorange;
+    font-size:16px;
+}
+
+.faq{
+    font-size:20px;
+    font-family: "Abel", sans-serif;
+    color:black;
+    text-align:justify;
+    padding:40px;
+}
+
+.footer{
+    background: rgba(0, 120, 255, 0.3);
+    text-align:center;
+    height:auto;
+    margin:0 auto;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+.foot-links a{
+    padding:10px;
+    padding-bottom:30px;
+    text-transform: lowercase;
+    color: darkolivegreen;
+    font-family: "Abel", sans-serif;
+}
+
+#form1{
+    padding-left:60px;
+    padding-bottom:50px;
+}
+
+#form2{
+    padding-left:60px;
+    padding-top:40px;
+    padding-bottom:50px;
+}
+
+.form-control{
+    width:30%;
+}
+
+.header{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+#img2{
+    padding:10px;
+}
+
+#jumbotron1{
+    background:darkorange;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+#jumbotron1 a{
+    color:black;
+}
+
+.navbar-default{
+    background: rgba(0, 120, 255, 0.2);
+    color:blue;
+}
+
+#offer{
+    height:auto;
+    border:10px solid darkorange;
+    padding:0;
+    min-height:400px;
+}
+
+#offer p{
+    font-size:16px;
+    font-family: "Abel", sans-serif;
+    color:black;
+    padding-bottom:40px;
+}
+
+#offerh2a{
+    font-size:24px;
+    font-family: "Abel", sans-serif;
+    color:darkred;
+}
+
+#offerh2b{
+    font-size:20px;
+    font-family: "Abel", sans-serif;
+    color:black;
+}
+
+#pre1{
+    padding:60px;
+}
+
+#pre2{
+    padding-left:60px;
+    padding-top:30px;
+}
+
+#pre2 p{
+    font-size:20px;
+    font-family: "Abel", sans-serif;
+    color:black;
+    text-align:left;
 }
 
 .quest{
     width:50px;
     height:30px;
     position:absolute;
+}
+
+#rewardbutton{
+    color:darkorange;
+    text-decoration:none;
+    font-family: "Abel", sans-serif;
+}
+
+.row2{
+    padding:30px;
+    background:white;
+}
+
+.social-media{
+    padding-top:30px;
+}
+
+.social-media a{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#surveybutton{
+    background-color:darkorange;
+    border:none;
+    color:darkred;
+    padding: 20px 25px;
+    text-align:center;
+    display:inline-block;
+    border-radius:12px;
+}
+
+#testimonial h2{
+    font-size:22px;
+    font-family: "Abel", sans-serif;
+}
+
+#testimonial p{
+    font-size:14px;
+    font-family: "Abel", sans-serif;
+}
+
+.thumbnail{
+    background: white;
+    height:200px;
+}
+
+.well{
+    background-color: rgba(0, 0, 0, 0.1);
+    border:0;
+    margin:0 auto;
+    padding-top:20px;
+    padding-bottom:40px;
+    font-size:14px;
+    font-family: "Abel", sans-serif;
+}
+
+.well h2{
+    font-size:25px;
+    font-family: "Abel", sans-serif;
+    padding-bottom:40px;
 }
