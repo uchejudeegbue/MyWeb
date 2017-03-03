@@ -30,8 +30,9 @@
     border-radius:10px;
     background-attachment: inherit;
     background-size:cover;
-    background-position: center center;
-    margin:0 auto;
+    background-position:center;
+    margin:0;
+    padding:0;
 }
 
 #article1a h1{
