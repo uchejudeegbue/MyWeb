@@ -9,7 +9,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM responce ORDER BY id DESC"); // u
 
 <html>
 <head>	
-	<title>Homepage</title>
+	<title>Quest Online</title>
 </head>
 
 <body>
