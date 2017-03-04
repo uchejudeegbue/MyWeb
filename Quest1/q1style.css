@@ -699,3 +699,9 @@ body{
     font-family: "Abel", sans-serif;
     padding-bottom:40px;
 }
+
+#qname{
+    color:white;
+    padding-left:60px;
+    font-family:"Arial Rounded MT Bold";
+}
