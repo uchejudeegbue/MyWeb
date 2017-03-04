@@ -53,7 +53,7 @@
             <h2><strong>Share your opinion and get rewarded</strong></h2>
 
             <ul class="list-unstyled list-inline">
-                <li><a href="#"><strong>Sign in / Register</strong></a></li>
+                <li><a href="signup.php"><strong>Sign up / Register</strong></a></li>
                 <li><a href="survey.html"><strong>Take Survey</strong></a></li>
                 <li><a href="reward.html"><strong>Reward</strong></a></li>
             </ul>
