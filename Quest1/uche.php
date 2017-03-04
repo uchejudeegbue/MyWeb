@@ -24,7 +24,7 @@ if (!$result->num_rows == 1) {
 } else {
     echo "<p>Logged in successfully</p>";
     // do stuffs
- header('location: crud/index.php');
+ header('location: admin.php');
 }
 
 
