@@ -81,7 +81,7 @@ $message="";
             <p>Register with us to enjoy our unlimited offers and unlock your full marketing potentials online.</p>
 
             <p>
-                This is a secured location. Please provide the necessary details to sign up
+                <span style="color:red; text-transform:uppercase;" >This is a secured location.</span> Please provide the necessary details to sign up
             </p>
                 <p style="color:red"> <?php echo $message; ?></p>
         </div>
