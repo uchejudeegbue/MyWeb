@@ -78,6 +78,7 @@ $message="";
         <h1><strong>Welcome to Quest Online Client's Request Page</strong></h1>
 
         <div id="pre1">
+            <p>Register with us to enjoy our unlimited offers and unlock your full marketing potentials online.</p>
 
             <p>
                 This is a secured location. Please provide the necessary details to sign up
