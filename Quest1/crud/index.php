@@ -18,7 +18,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM responce ORDER BY id DESC"); // u
 	<table width='100%' border=0 align='center'>
 
 	<tr bgcolor='#CCCCCC'>
-		<td>ID</td>
+		<td>UserID</td>
 		<td>Age Bracket</td>
 		<td>Gender</td>
 		<td>Use of Smartphone?</td>
