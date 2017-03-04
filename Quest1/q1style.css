@@ -23,7 +23,7 @@
     padding-left:100px;
 }
 
-.article1a{
+/*.article1a{
     background-image:url(femme.jpg);
     height:500px;
     border: 3px solid #ddd;
@@ -33,6 +33,10 @@
     background-position:center;
     margin:0;
     padding:0;
+}*/
+
+#article1aimg{
+
 }
 
 #article1a h1{
