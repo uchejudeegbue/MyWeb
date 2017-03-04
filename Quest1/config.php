@@ -13,10 +13,10 @@ $conn = mysql_connect("localhost","root","root")
  * using mysqli_connect instead
  */
 
-$databaseHost = 'localhost';
-$databaseName = 'msc_project';
-$databaseUsername = 'root';
-$databasePassword = '';
+$databaseHost = 'ap-cdbr-azure-east-c.cloudapp.net';
+$databaseName = 'acsm_581c9d4a8ca6f21';
+$databaseUsername = 'b70bf26a0e51fe';
+$databasePassword = '408b52f1';
 
 $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
  
