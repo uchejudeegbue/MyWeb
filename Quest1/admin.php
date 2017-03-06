@@ -23,7 +23,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM responce ORDER BY id DESC"); // u
 		<td>Gender</td>
 		<td>Use of Smartphone?</td>
 		<td>Popular brand</td>
-		<td>Used Huawei smartphones before?</td>
+		<td>Used LEN0V0 smartphones before?</td>
 		<td>Product rating</td>
 		<td>Interested to test our product?</td>
 		<td>Geographical spread</td>
