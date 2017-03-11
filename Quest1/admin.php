@@ -13,7 +13,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM responce ORDER BY id DESC"); // u
 </head>
 
 <body>
-<h1 align='center'>Customers feedback</h1><br/><br/>
+<h1 align='center'>Respondents feedback</h1><br/><br/>
 
 	<table width='100%' border=0 align='center'>
 
